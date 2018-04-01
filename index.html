@@ -1,0 +1,40 @@
+--- layout: default ---
+
+<h1 class="hide">Home</h1>
+
+<section alt="Recent Episodes" class="episode-list">
+  <h2 class="cover-heading">Recent Episodes</h2>
+
+  <!-- This loops through the paginated posts -->
+  {% for post in paginator.posts %}
+  <div class="row">
+    <span class="col-md-1 publish-date">{{ site.date | date_to_string: "ordinal", "US" }}</span>
+    <div class="col-md-11">
+      <h2 class="title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <div>
+        {{ post.excerpt }}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+
+  <hr />
+
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <span class="pull-left">
+      <a class="btn btn-primary" href="{{ paginator.previous_page_path }}">&lt;&lt; Prev</a>
+    </span>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <span class="pull-right">
+      <a class="btn btn-primary" href="{{ paginator.next_page_path }}">Next &gt;&gt;</a>
+    </span>
+    {% endif %}
+  </div>
+
+</section>

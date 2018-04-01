@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include meta.html %}
+  <title>{{ site.name }}</title>
+  <link rel="icon" href="{{ site.baseurl }}/favicon.ico">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ site.baseurl }}/site.css" rel="stylesheet">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+</head>
+<body>
+
+  <div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+      <div class="cover-container">
+
+        <div class="masthead clearfix">
+          <a class="masthead-brand" href="{{ site.baseurl }}/" title="{{ site.name }}">
+            <img src="{{ site.baseurl }}/img/logo-banner.png" alt="{{ site.name }}" />
+          </a>
+        </div>
+
+        <div class="inner cover container-fluid">
+          {{ content }}
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  {% include analytics.html %}
+</body>
+</html>

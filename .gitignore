@@ -1,0 +1,4 @@
+.vscode/
+.sonarlint/
+node_modules/
+episodes/

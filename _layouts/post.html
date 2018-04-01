@@ -1,0 +1,36 @@
+--- layout: default ---
+
+<article class="episode">
+
+  <div class="row">
+    <div class="col-md-2 publish-date">
+      <span class="date">{{ page.date | date_to_string: "ordinal", "US" }}</span>
+      <span class="year"></span>
+    </div>
+    <div class="col-md-10">
+      <h1 class="col-md-12 title">{{ page.title }}</h1>
+      <audio class="col-md-8" controls src="{{ page.podcast_link }}"></audio>
+      <span class="col-md-3">
+        <label>Duration</label> {{ page.podcast_duration }}</span>
+    </div>
+  </div>
+
+  <div class="row">
+  </div>
+
+  <hr />
+
+  <div class="row">
+    {{ content }}
+
+    <div class="call-to-action">
+      <p>
+        After you've listened to the episode, we'd love to hear what you think. Please
+        <strong>leave a comment below</strong>!
+      </p>
+    </div>
+
+  </div>
+
+  <hr /> {% include disqus.html %}
+</article>
