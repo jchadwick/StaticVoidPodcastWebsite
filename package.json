@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/jchadwick/StaticVoidPodcastWebsite#readme",
   "dependencies": {
+    "json2yaml": "^1.1.0",
+    "moment": "^2.22.0",
+    "momentjs": "^2.0.0",
+    "turndown": "^4.0.1",
     "xml2js": "^0.4.19"
   }
 }
