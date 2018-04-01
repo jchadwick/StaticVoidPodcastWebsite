@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+    xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0/play-podcasts.xsd"
+>
+  <channel>
+    <title>The Static Void Podcast</title>
+    <atom:link href="https://www.staticvoidpodcast.com/feed/" rel="self" type="application/rss+xml" />
+    <link>https://www.staticvoidpodcast.com</link>
+    <description>For developers, by developers</description>
+    <lastBuildDate>Wed, 14 Mar 2018 05:00:26 +0000</lastBuildDate>
+    <language>en-US</language>
+    <sy:updatePeriod>hourly</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <image>
+      <url>https://www.staticvoidpodcast.com/img/logo-rss.jpg</url>
+      <title>The Static Void Podcast</title>
+      <link>https://www.staticvoidpodcast.com</link>
+      <width>32</width>
+      <height>32</height>
+    </image>
+    <itunes:summary>Join Jess, Todd, and Chris as they do their best to keep up-to-date with what&#039;s going on in the software development world today.  Who knows - maybe you&#039;ll learn a thing or two!</itunes:summary>
+    <itunes:author>The Static Void Podcast</itunes:author>
+    <itunes:explicit>clean</itunes:explicit>
+    <itunes:image href="http://www.staticvoidpodcast.com/img/logo-rss.jpg" />
+    <itunes:owner>
+      <itunes:name>The Static Void Podcast</itunes:name>
+      <itunes:email>jesschadwick@gmail.com</itunes:email>
+    </itunes:owner>
+    <managingEditor>jesschadwick@gmail.com (The Static Void Podcast)</managingEditor>
+    <itunes:subtitle>The programming podcast for developers, by developers</itunes:subtitle>
+    <image>
+      <title>The Static Void Podcast</title>
+      <url>http://www.staticvoidpodcast.com/img/logo-rss.jpg</url>
+      <link>https://www.staticvoidpodcast.com</link>
+    </image>
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To" />
+      <itunes:category text="Tech News" />
+      <itunes:category text="Gadgets" />
+    </itunes:category>
+    <rawvoice:subscribe feed="https://www.staticvoidpodcast.com/feed/" itunes="https://geo.itunes.apple.com/us/podcast/the-static-void-podcast/id1042502752"></rawvoice:subscribe>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/messaging-in-distributed-systems</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20180123MessagingPatterns/StaticVoidPodcast-20180123-MessagingPatterns.mp3" length="27585708" type="audio/mpeg" />
+      <title>Messaging in Distributed Systems - What&amp;#x27;s the Deal?</title>
+      <link>https://www.staticvoidpodcast.com/messaging-in-distributed-systems</link>
+      <comments>https://www.staticvoidpodcast.com/messaging-in-distributed-systems#comments</comments>
+      <pubDate>Wed, 14 Mar 2018 05:00:26 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Chris, Jess, and Todd chat about enterprise messaging patterns.  Is it a good practice to put a message bus or a queue in between your web server and your middle tier services?  Can message buses be overkill?  What's the best way for your loosely-coupled containerized services to communicate with one another?  Did Todd actually say that there's some benefits to building a monolith?]]></description>
+      <content:encoded><![CDATA[Chris, Jess, and Todd chat about enterprise messaging patterns.  Is it a good practice to put a message bus or a queue in between your web server and your middle tier services?  Can message buses be overkill?  What's the best way for your loosely-coupled containerized services to communicate with one another?  Did Todd actually say that there's some benefits to building a monolith?
+
+We asked all these questions, but you've got to listen to see how many of them we actually answered... or how many answers we actually got right.]]></content:encoded>
+      <itunes:subtitle>Chris, Jess, and Todd chat about enterprise messaging patterns.  Is it a good practice to put a message bus or a queue in between your web server and your middle tier services?  Can message buses be overkill?  What's the best way for your loosely-coupled containerized services to communicate with one another?  Did Todd actually say that there's some benefits to building a monolith?</itunes:subtitle>
+      <itunes:summary><![CDATA[Chris, Jess, and Todd chat about enterprise messaging patterns.  Is it a good practice to put a message bus or a queue in between your web server and your middle tier services?  Can message buses be overkill?  What's the best way for your loosely-coupled containerized services to communicate with one another?  Did Todd actually say that there's some benefits to building a monolith?
+
+We asked all these questions, but you've got to listen to see how many of them we actually answered... or how many answers we actually got right.]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:12:46</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/going-beyond-nuget-org-by-creating-your-own-packages</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20180103NuGetPackageManagement/StaticVoidPodcast-20180103-NuGetPackageManagement.mp3" length="28667332" type="audio/mpeg" />
+      <title>Going beyond NuGet.org by creating your own packages</title>
+      <link>https://www.staticvoidpodcast.com/going-beyond-nuget-org-by-creating-your-own-packages</link>
+      <comments>https://www.staticvoidpodcast.com/going-beyond-nuget-org-by-creating-your-own-packages#comments</comments>
+      <pubDate>Wed, 28 Feb 2018 05:00:09 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Jess and Chris chat about not just using NuGet to download Microsoft's and other Open Source libraries from NuGet.org, but creating your own custom NuGet packages to help version and distribute your own components, without ever leaving your firewall!]]></description>
+      <content:encoded><![CDATA[Jess and Chris chat about not just using NuGet to download Microsoft's and other Open Source libraries from NuGet.org, but creating your own custom NuGet packages to help version and distribute your own components, without ever leaving your firewall!
+
+<p>
+<strong>Links</strong>
+<ul>	
+<li><a href="https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli">Microsoft:  Creating and Publishing a NuGet Package</a></li>
+<li><a href="https://docs.microsoft.com/en-us/nuget/create-packages/symbol-packages">Microsoft: Creating NuGet Symbol Packages</a></li>
+<li><a href="https://docs.microsoft.com/en-us/nuget/reference/nuspec">Microsoft:  .nuspec File Reference</a></li>
+<li><a href="https://semver.org/">SemVer.org:  Semantic Versioning guide</a></li>
+<li><a href="http://www.symbolsource.org/Public">SymbolSource.org: The public symbol server</a></li>
+<li><a href="https://myget.org/">MyGet.org:  Host your own (private or public) NuGet feed</a></li>
+<li><a href="https://inedo.com/proget">ProGet NuGet feed source</a></li>
+<li><a href="https://jfrog.com/artifactory/">JFrog Artifactory:  Artifact repository with NuGet support</a></li>
+</ul>
+
+
+</p>]]></content:encoded>
+      <itunes:subtitle>Jess and Chris chat about not just using NuGet to download Microsoft's and other Open Source libraries from NuGet.org, but creating your own custom NuGet packages to help version and distribute your own components, without ever leaving your firewall!</itunes:subtitle>
+      <itunes:summary><![CDATA[Jess and Chris chat about not just using NuGet to download Microsoft's and other Open Source libraries from NuGet.org, but creating your own custom NuGet packages to help version and distribute your own components, without ever leaving your firewall!
+
+<p>
+<strong>Links</strong>
+<ul>	
+<li><a href="https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package-using-the-dotnet-cli">Microsoft:  Creating and Publishing a NuGet Package</a></li>
+<li><a href="https://docs.microsoft.com/en-us/nuget/create-packages/symbol-packages">Microsoft: Creating NuGet Symbol Packages</a></li>
+<li><a href="https://docs.microsoft.com/en-us/nuget/reference/nuspec">Microsoft:  .nuspec File Reference</a></li>
+<li><a href="https://semver.org/">SemVer.org:  Semantic Versioning guide</a></li>
+<li><a href="http://www.symbolsource.org/Public">SymbolSource.org: The public symbol server</a></li>
+<li><a href="https://myget.org/">MyGet.org:  Host your own (private or public) NuGet feed</a></li>
+<li><a href="https://inedo.com/proget">ProGet NuGet feed source</a></li>
+<li><a href="https://jfrog.com/artifactory/">JFrog Artifactory:  Artifact repository with NuGet support</a></li>
+</ul>
+
+
+</p>]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:18:33</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/real-world-git</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20171219RealWorldGit/StaticVoidPodcast20171219RealWorldGit.mp3" length="32818879" type="audio/mpeg" />
+      <title>Real-World Git</title>
+      <link>https://www.staticvoidpodcast.com/real-world-git</link>
+      <comments>https://www.staticvoidpodcast.com/real-world-git#comments</comments>
+      <pubDate>Thu, 21 Dec 2017 04:32:07 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Todd, Chris, and Jess chat about using Git in their day-to-day lives.  Jess thinks it's the best thing since the CPU, but Todd thinks it's just the shiny new toy that's no better than TFS. Meanwhile, Chris thinks that GitFlow is the most overly-complicated process he's ever seen.  What do you think?]]></description>
+      <content:encoded><![CDATA[Todd, Chris, and Jess chat about using Git in their day-to-day lives.  Jess thinks it's the best thing since the CPU, but Todd thinks it's just the shiny new toy that's no better than TFS. Meanwhile, Chris thinks that GitFlow is the most overly-complicated process he's ever seen.  What do you think?<br>
+<p>
+<strong>Links</strong>
+<ul>
+	<li><a href="http://think-like-a-git.net/">Think Like (a) Git</a></li>
+<li><a href="https://guides.github.com/introduction/flow/">GitHub.com: Understanding GitHub Flow</a></li>
+<li><a href="http://nvie.com/posts/a-successful-git-branching-model/">Vincent Driessen: A successful Git branching model (GitFlow)</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows">Atlassian: Comparing Git Workflows</a></li>
+</ul>
+
+
+</p>]]></content:encoded>
+      <itunes:subtitle>Todd, Chris, and Jess chat about using Git in their day-to-day lives.  Jess thinks it's the best thing since the CPU, but Todd thinks it's just the shiny new toy that's no better than TFS. Meanwhile, Chris thinks that GitFlow is the most overly-complicated process he's ever seen.  What do you think?</itunes:subtitle>
+      <itunes:summary><![CDATA[Todd, Chris, and Jess chat about using Git in their day-to-day lives.  Jess thinks it's the best thing since the CPU, but Todd thinks it's just the shiny new toy that's no better than TFS. Meanwhile, Chris thinks that GitFlow is the most overly-complicated process he's ever seen.  What do you think?<br>
+<p>
+<strong>Links</strong>
+<ul>
+	<li><a href="http://think-like-a-git.net/">Think Like (a) Git</a></li>
+<li><a href="https://guides.github.com/introduction/flow/">GitHub.com: Understanding GitHub Flow</a></li>
+<li><a href="http://nvie.com/posts/a-successful-git-branching-model/">Vincent Driessen: A successful Git branching model (GitFlow)</a></li>
+<li><a href="https://www.atlassian.com/git/tutorials/comparing-workflows">Atlassian: Comparing Git Workflows</a></li>
+</ul>
+
+
+</p>]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:26:01</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/developer-productivity-techbash-2017-conference-panel</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcastDeveloperProductivityPanel/StaticVoidPodcast-DeveloperProductivityPanel.mp3" length="24145718" type="audio/mpeg" />
+      <title>Developer Productivity: TechBash 2017 Conference Panel</title>
+      <link>https://www.staticvoidpodcast.com/developer-productivity-techbash-2017-conference-panel</link>
+      <comments>https://www.staticvoidpodcast.com/developer-productivity-techbash-2017-conference-panel#comments</comments>
+      <pubDate>Fri, 06 Oct 2017 05:21:10 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[What's the best way for a developer to provide true "value"?]]></description>
+      <content:encoded><![CDATA[<div><strong>What's the best way for a developer to provide true "value"?</strong></div>
+<div>&nbsp;</div>
+<div>
+Join our panel of experienced developers as they discuss their patterns, practices, methodologies, frameworks, tips and tricks that help them reach their maximum productivity. Whether it's solving customer problems (usually with code), contributing to or running open source projects, or even curating online content like video training courses, these panelists tell you their secrets of how the "get stuff done."</div>
+<div>&nbsp;</div>
+<div>
+<strong>Panelists</strong>
+
+<ul>
+<li><a href="https://techbash.com/speakers/scottallen">Scott Allen</a></li>
+<li><a href="https://techbash.com/speakers/stephenbohlen">Stephen Bohlen</a></li>
+<li><a href="https://techbash.com/speakers/damianbrady">Damian Brady</a></li>
+<li><a href="https://techbash.com/speakers/suzhinton">Suz Hinton</a></li>
+<li><a href="https://techbash.com/speakers/orennovotny">Oren Novotny</a></li>
+</ul>
+</div>]]></content:encoded>
+      <itunes:subtitle>What's the best way for a developer to provide true "value"?</itunes:subtitle>
+      <itunes:summary><![CDATA[<div><strong>What's the best way for a developer to provide true "value"?</strong></div>
+<div>&nbsp;</div>
+<div>
+Join our panel of experienced developers as they discuss their patterns, practices, methodologies, frameworks, tips and tricks that help them reach their maximum productivity. Whether it's solving customer problems (usually with code), contributing to or running open source projects, or even curating online content like video training courses, these panelists tell you their secrets of how the "get stuff done."</div>
+<div>&nbsp;</div>
+<div>
+<strong>Panelists</strong>
+
+<ul>
+<li><a href="https://techbash.com/speakers/scottallen">Scott Allen</a></li>
+<li><a href="https://techbash.com/speakers/stephenbohlen">Stephen Bohlen</a></li>
+<li><a href="https://techbash.com/speakers/damianbrady">Damian Brady</a></li>
+<li><a href="https://techbash.com/speakers/suzhinton">Suz Hinton</a></li>
+<li><a href="https://techbash.com/speakers/orennovotny">Oren Novotny</a></li>
+</ul>
+</div>]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:03:49</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/real-world-devops-with-andy-schwam</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20170720DevOpsAndySchwam/StaticVoidPodcast-20170720-DevOps-AndySchwam.mp3" length="34431051" type="audio/mpeg" />
+      <title>Real-World DevOps with Andy Schwam</title>
+      <link>https://www.staticvoidpodcast.com/real-world-devops-with-andy-schwam</link>
+      <comments>https://www.staticvoidpodcast.com/real-world-devops-with-andy-schwam#comments</comments>
+      <pubDate>Mon, 14 Aug 2017 05:00:28 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[What does "DevOps" really mean when you're not up on stage demoing the latest DevOps product or working at Netflix, Etsy, or Facebook?  To find out, we ask Andy Schwam (@schwammy), a development manager, architect, and coder who has lived and breathed the concepts of "DevOps" in the real world... and lived to tell about it.]]></description>
+      <content:encoded><![CDATA[What does "DevOps" really mean when you're not up on stage demoing the latest DevOps product or working at Netflix, Etsy, or Facebook?  To find out, we ask <a href="http://www.schwammysays.net/">Andy Schwam</a> (<a href="https://twitter.com/schwammy">@schwammy</a>), a development manager, architect, and coder who has lived and breathed the concepts of "DevOps" in the real world... and lived to tell about it.
+
+What's myth and what works?  What's hard and what's easy?  Andy takes us behind the scenes and tells us what it takes to transform an existing error-prone manual deployment to a highly-reliable, repeatable, and automated process.]]></content:encoded>
+      <itunes:subtitle>What does "DevOps" really mean when you're not up on stage demoing the latest DevOps product or working at Netflix, Etsy, or Facebook?  To find out, we ask Andy Schwam (@schwammy), a development manager, architect, and coder who has lived and breathed the concepts of "DevOps" in the real world... and lived to tell about it.</itunes:subtitle>
+      <itunes:summary><![CDATA[What does "DevOps" really mean when you're not up on stage demoing the latest DevOps product or working at Netflix, Etsy, or Facebook?  To find out, we ask <a href="http://www.schwammysays.net/">Andy Schwam</a> (<a href="https://twitter.com/schwammy">@schwammy</a>), a development manager, architect, and coder who has lived and breathed the concepts of "DevOps" in the real world... and lived to tell about it.
+
+What's myth and what works?  What's hard and what's easy?  Andy takes us behind the scenes and tells us what it takes to transform an existing error-prone manual deployment to a highly-reliable, repeatable, and automated process.]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:26:02</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/introducing-razor-pages</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast201706RazorPages/StaticVoidPodcast-20170613-RazorPages.mp3" length="28732228" type="audio/mpeg" />
+      <title>Introducing Razor Pages</title>
+      <link>https://www.staticvoidpodcast.com/introducing-razor-pages</link>
+      <comments>https://www.staticvoidpodcast.com/introducing-razor-pages#comments</comments>
+      <pubDate>Thu, 03 Aug 2017 02:37:12 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Razor Pages is a brand new feature in .NET Core 2.0 that brings the Page Model back into .NET Core, providing developers a simple, effective, and above all, easy way to create dynamic web pages without having to get into the details of the Model-View-Controller (MVC) approach.]]></description>
+      <content:encoded><![CDATA[<div>Razor Pages is a brand new feature in .NET Core 2.0 that brings the Page Model back into .NET Core, providing developers a simple, effective, and above all, <em>easy</em> way to create dynamic web pages without having to get into the details of the Model-View-Controller (MVC) approach.</div>
+<div>&nbsp;</div>
+<div>Or is it?</div>
+<div>&nbsp;</div>
+<div>Join Jess, Todd, and Chris as they try to make sense of that one last .NET Core 2.0 feature that they left out in the last episode, Razor Pages.  What exactly is it?  Is it actually simple?  Is it really easier than using ASP.NET Core MVC?</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;"><strong>Show Notes and Related Links</strong></span></div>
+<ul>
+ 	<li><a href="https://docs.microsoft.com/en-us/aspnet/core/mvc/razor-pages/">Razor Pages - Official Documentation</a></li>
+ 	<li><a href="https://www.mikesdotnetting.com/article/307/razor-pages-getting-started-with-the-preview">Razor Pages - Getting Started with the Preview</a> (Mike's DotNetting)</li>
+ 	<li><a href="https://www.mikesdotnetting.com/article/308/razor-pages-understanding-handler-methods">Razor Pages - Understanding Handler Methods</a> (Mike's DotNetting)</li>
+ 	<li><a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter">Model-View-Presenter (MVP) Design Pattern</a></li>
+ 	<li><a href="https://www.infragistics.com/community/blogs/todd_snyder/archive/2007/10/17/mvc-or-mvp-pattern-whats-the-difference.aspx">MVC or MVP Pattern - What's the Difference?</a> (Todd's blog post)</li>
+</ul>]]></content:encoded>
+      <itunes:subtitle>Razor Pages is a brand new feature in .NET Core 2.0 that brings the Page Model back into .NET Core, providing developers a simple, effective, and above all, easy way to create dynamic web pages without having to get into the details of the Model-View-Controller (MVC) approach.</itunes:subtitle>
+      <itunes:summary><![CDATA[<div>Razor Pages is a brand new feature in .NET Core 2.0 that brings the Page Model back into .NET Core, providing developers a simple, effective, and above all, <em>easy</em> way to create dynamic web pages without having to get into the details of the Model-View-Controller (MVC) approach.</div>
+<div>&nbsp;</div>
+<div>Or is it?</div>
+<div>&nbsp;</div>
+<div>Join Jess, Todd, and Chris as they try to make sense of that one last .NET Core 2.0 feature that they left out in the last episode, Razor Pages.  What exactly is it?  Is it actually simple?  Is it really easier than using ASP.NET Core MVC?</div>
+<div>&nbsp;</div>
+<div><span style="text-decoration: underline;"><strong>Show Notes and Related Links</strong></span></div>
+<ul>
+ 	<li><a href="https://docs.microsoft.com/en-us/aspnet/core/mvc/razor-pages/">Razor Pages - Official Documentation</a></li>
+ 	<li><a href="https://www.mikesdotnetting.com/article/307/razor-pages-getting-started-with-the-preview">Razor Pages - Getting Started with the Preview</a> (Mike's DotNetting)</li>
+ 	<li><a href="https://www.mikesdotnetting.com/article/308/razor-pages-understanding-handler-methods">Razor Pages - Understanding Handler Methods</a> (Mike's DotNetting)</li>
+ 	<li><a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter">Model-View-Presenter (MVP) Design Pattern</a></li>
+ 	<li><a href="https://www.infragistics.com/community/blogs/todd_snyder/archive/2007/10/17/mvc-or-mvp-pattern-whats-the-difference.aspx">MVC or MVP Pattern - What's the Difference?</a> (Todd's blog post)</li>
+</ul>]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:11:54</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/2134-2</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20170605DotNetCore20/StaticVoidPodcast-20170605-DotNetCore20.mp3" length="29162899" type="audio/mpeg" />
+      <title>.NET Core 2.0: Is it ready?</title>
+      <link>https://www.staticvoidpodcast.com/2134-2</link>
+      <comments>https://www.staticvoidpodcast.com/2134-2#comments</comments>
+      <pubDate>Mon, 19 Jun 2017 03:55:28 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[In anticipation of the up-coming .NET Core 2.0 release (and the preview currently available), Todd, Jess, and Chris offer their answers to some of the frequently asked questions around .NET Core, such as:]]></description>
+      <content:encoded><![CDATA[In anticipation of the up-coming .NET Core 2.0 release (and the preview currently available), Todd, Jess, and Chris offer their answers to some of the frequently asked questions around .NET Core, such as:
+<ul>
+ 	<li>Does .NET Core 2.0 have all the namespaces/APIs as .NET 4.6?</li>
+ 	<li>Does .NET Core support Visual Basic (VB.NET) yet?</li>
+ 	<li>What about SignalR - is that available?</li>
+ 	<li>What options do I have when running my ASP.NET Core applications?  Do I have to use IIS?  What about Docker?</li>
+ 	<li>What is .NET Standard (and should I care)?</li>
+ 	<li>What's the best IDE to use when building an ASP.NET Core application?</li>
+</ul>
+And, of course…
+<ul>
+ 	<li>Should I start moving from .NET 4.6 to .NET Core now?  Is it ready for prime time?</li>
+</ul>
+&nbsp;
+
+<b>Links and References</b>
+<ul>
+ 	<li>Webinar courtesy of PostSharp: <a href="http://www.postsharp.net/blog/post/webinar-recording-dotnetcore-on-linux">Who needs Visual Studio? A look at .NET Core on Linux</a></li>
+ 	<li><a href="https://channel9.msdn.com/Events/Build/2017">Build 2017 Sessions online</a></li>
+ 	<li><a href="https://docs.microsoft.com/en-us/dotnet/core/">An overview of .NET Core</a>, discussing the approach, features, and goals</li>
+ 	<li><a href="https://blogs.msdn.microsoft.com/dotnet/2017/05/10/announcing-net-core-2-0-preview-1/">Visual Basic in .NET Core announced with .NET Core 2.0 Preview 1</a>
+(It's there… search for "Visual Basic is now Supported" on the page)</li>
+ 	<li><a href="https://www.visualstudio.com/vs/preview/">Visual Studio 2017 Preview</a>
+(Includes tooling for Visual Basic in .NET Core and .NET Core 2.0 / ASP.NET Core 2.0)</li>
+ 	<li><a href="https://channel9.msdn.com/events/Build/2017/B8078">ASP.NET Core SignalR</a> at Build (video)</li>
+ 	<li><a href="https://github.com/aspnet/SignalR">ASP.NET Core SignalR Repository</a></li>
+ 	<li><a href="https://github.com/aspnet/Home/wiki/Roadmap">ASP.NET Core Roadmap</a></li>
+ 	<li><a href="https://socket.io/">Socket.io - Real-Time Web in Node</a></li>
+ 	<li><a href="https://channel9.msdn.com/Events/Build/2017/B8088">Anders Hejlsberg: What's New In TypeScript</a> (video)
+(This turned out to be a good introduction to TypeScript and how it can help you in different ways, you can choose what you want to adopt)</li>
+ 	<li><a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel#when-to-use-kestrel-with-a-reverse-proxy">Kestrel in production (internet facing) and using a reverse proxy</a>
+"If you expose your application to the Internet, you must use IIS, Nginx, or Apache as a <i>reverse proxy server</i>."</li>
+ 	<li>Matt Watson from Stackify has <a href="https://stackify.com/kestrel-web-server-asp-net-core-kestrel-vs-iis/">some plain english on this on the Stackify blog
+</a>(Thank you Matt!)</li>
+ 	<li><a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/aspnet-core-module">You will need the "ASP.NET Core Module" to run Kestrel behind IIS</a></li>
+ 	<li><a href="https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/">Introducing .NET Standard</a> (blog post)</li>
+ 	<li><a href="https://docs.microsoft.com/en-us/dotnet/standard/library">.NET Standard documentation</a></li>
+ 	<li><a href="https://www.visualstudio.com/vs/visual-studio-mac/">Visual Studio for Mac</a></li>
+</ul>]]></content:encoded>
+      <itunes:subtitle>In anticipation of the up-coming .NET Core 2.0 release (and the preview currently available), Todd, Jess, and Chris offer their answers to some of the frequently asked questions around .NET Core, such as:</itunes:subtitle>
+      <itunes:summary><![CDATA[In anticipation of the up-coming .NET Core 2.0 release (and the preview currently available), Todd, Jess, and Chris offer their answers to some of the frequently asked questions around .NET Core, such as:
+<ul>
+ 	<li>Does .NET Core 2.0 have all the namespaces/APIs as .NET 4.6?</li>
+ 	<li>Does .NET Core support Visual Basic (VB.NET) yet?</li>
+ 	<li>What about SignalR - is that available?</li>
+ 	<li>What options do I have when running my ASP.NET Core applications?  Do I have to use IIS?  What about Docker?</li>
+ 	<li>What is .NET Standard (and should I care)?</li>
+ 	<li>What's the best IDE to use when building an ASP.NET Core application?</li>
+</ul>
+And, of course…
+<ul>
+ 	<li>Should I start moving from .NET 4.6 to .NET Core now?  Is it ready for prime time?</li>
+</ul>
+&nbsp;
+
+<b>Links and References</b>
+<ul>
+ 	<li>Webinar courtesy of PostSharp: <a href="http://www.postsharp.net/blog/post/webinar-recording-dotnetcore-on-linux">Who needs Visual Studio? A look at .NET Core on Linux</a></li>
+ 	<li><a href="https://channel9.msdn.com/Events/Build/2017">Build 2017 Sessions online</a></li>
+ 	<li><a href="https://docs.microsoft.com/en-us/dotnet/core/">An overview of .NET Core</a>, discussing the approach, features, and goals</li>
+ 	<li><a href="https://blogs.msdn.microsoft.com/dotnet/2017/05/10/announcing-net-core-2-0-preview-1/">Visual Basic in .NET Core announced with .NET Core 2.0 Preview 1</a>
+(It's there… search for "Visual Basic is now Supported" on the page)</li>
+ 	<li><a href="https://www.visualstudio.com/vs/preview/">Visual Studio 2017 Preview</a>
+(Includes tooling for Visual Basic in .NET Core and .NET Core 2.0 / ASP.NET Core 2.0)</li>
+ 	<li><a href="https://channel9.msdn.com/events/Build/2017/B8078">ASP.NET Core SignalR</a> at Build (video)</li>
+ 	<li><a href="https://github.com/aspnet/SignalR">ASP.NET Core SignalR Repository</a></li>
+ 	<li><a href="https://github.com/aspnet/Home/wiki/Roadmap">ASP.NET Core Roadmap</a></li>
+ 	<li><a href="https://socket.io/">Socket.io - Real-Time Web in Node</a></li>
+ 	<li><a href="https://channel9.msdn.com/Events/Build/2017/B8088">Anders Hejlsberg: What's New In TypeScript</a> (video)
+(This turned out to be a good introduction to TypeScript and how it can help you in different ways, you can choose what you want to adopt)</li>
+ 	<li><a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel#when-to-use-kestrel-with-a-reverse-proxy">Kestrel in production (internet facing) and using a reverse proxy</a>
+"If you expose your application to the Internet, you must use IIS, Nginx, or Apache as a <i>reverse proxy server</i>."</li>
+ 	<li>Matt Watson from Stackify has <a href="https://stackify.com/kestrel-web-server-asp-net-core-kestrel-vs-iis/">some plain english on this on the Stackify blog
+</a>(Thank you Matt!)</li>
+ 	<li><a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/servers/aspnet-core-module">You will need the "ASP.NET Core Module" to run Kestrel behind IIS</a></li>
+ 	<li><a href="https://blogs.msdn.microsoft.com/dotnet/2016/09/26/introducing-net-standard/">Introducing .NET Standard</a> (blog post)</li>
+ 	<li><a href="https://docs.microsoft.com/en-us/dotnet/standard/library">.NET Standard documentation</a></li>
+ 	<li><a href="https://www.visualstudio.com/vs/visual-studio-mac/">Visual Studio for Mac</a></li>
+</ul>]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:13:49</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/the-twelve-factor-app</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast01232017TwelveFactor/StaticVoidPodcast-01232017-TwelveFactor.mp3" length="30440568" type="audio/mpeg" />
+      <title>The Twelve-Factor App: How to build modern, cloud-ready web applications</title>
+      <link>https://www.staticvoidpodcast.com/the-twelve-factor-app</link>
+      <comments>https://www.staticvoidpodcast.com/the-twelve-factor-app#comments</comments>
+      <pubDate>Wed, 25 Jan 2017 06:29:13 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Join Jess, Todd, and Chris as they discuss "The Twelve-Factor App": a set of patterns and practices that are crucial to building modern, scalable, and "cloud-ready" applications.]]></description>
+      <content:encoded><![CDATA[Join Jess, Todd, and Chris as they discuss <a href="https://12factor.net/">"The Twelve-Factor App"</a>: a set of patterns and practices that are crucial to building modern, scalable, and "cloud-ready" applications.
+
+The 12 Factors will help you build web applications that:
+<ul>
+<li>Use <strong>declarative</strong> formats for setup automation, to minimize time and cost for new developers joining the project;</li>
+
+<li>Have a <strong>clean contract</strong> with the underlying operating system, offering <strong>maximum portability</strong> between execution environments;</li>
+
+<li>Are suitable for <strong>deployment</strong> on modern <strong>cloud platforms</strong>, obviating the need for servers and systems administration;</li>
+
+<li><strong>Minimize divergence</strong> between development and production, enabling <strong>continuous deployment</strong> for maximum agility;</li>
+
+<li>And can <strong>scale up</strong> without significant changes to tooling, architecture, or development practices.</li>
+</ul>
+
+<strong>Show Links:</strong>
+<ul>
+	<li><strong><a href="https://12factor.net/">The Twelve-Factor App</a></strong>: The site that started it all</li>
+	<li><strong><a href="https://content.pivotal.io/ebooks/beyond-the-12-factor-app">Beyond the Twelve-Factor App</a></strong>: (free eBook) The follow-up book that expands on the original 12 Factors and adds some great real-world advice</li>
+</ul>
+
+]]></content:encoded>
+      <itunes:subtitle>Join Jess, Todd, and Chris as they discuss "The Twelve-Factor App": a set of patterns and practices that are crucial to building modern, scalable, and "cloud-ready" applications.</itunes:subtitle>
+      <itunes:summary><![CDATA[Join Jess, Todd, and Chris as they discuss <a href="https://12factor.net/">"The Twelve-Factor App"</a>: a set of patterns and practices that are crucial to building modern, scalable, and "cloud-ready" applications.
+
+The 12 Factors will help you build web applications that:
+<ul>
+<li>Use <strong>declarative</strong> formats for setup automation, to minimize time and cost for new developers joining the project;</li>
+
+<li>Have a <strong>clean contract</strong> with the underlying operating system, offering <strong>maximum portability</strong> between execution environments;</li>
+
+<li>Are suitable for <strong>deployment</strong> on modern <strong>cloud platforms</strong>, obviating the need for servers and systems administration;</li>
+
+<li><strong>Minimize divergence</strong> between development and production, enabling <strong>continuous deployment</strong> for maximum agility;</li>
+
+<li>And can <strong>scale up</strong> without significant changes to tooling, architecture, or development practices.</li>
+</ul>
+
+<strong>Show Links:</strong>
+<ul>
+	<li><strong><a href="https://12factor.net/">The Twelve-Factor App</a></strong>: The site that started it all</li>
+	<li><strong><a href="https://content.pivotal.io/ebooks/beyond-the-12-factor-app">Beyond the Twelve-Factor App</a></strong>: (free eBook) The follow-up book that expands on the original 12 Factors and adds some great real-world advice</li>
+</ul>
+
+]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:10:59</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/visual-studio-code-vs-visual-studio-classic-whats-an-ide-anyway</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20161121VisualStudio/StaticVoidPodcast-20161121-VisualStudio.mp3" length="25296397" type="audio/mpeg" />
+      <title>Visual Studio Code vs. Visual Studio &amp;quot;Classic&amp;quot; -- what&amp;#x27;s an IDE, anyway?</title>
+      <link>https://www.staticvoidpodcast.com/visual-studio-code-vs-visual-studio-classic-whats-an-ide-anyway</link>
+      <comments>https://www.staticvoidpodcast.com/visual-studio-code-vs-visual-studio-classic-whats-an-ide-anyway#comments</comments>
+      <pubDate>Mon, 28 Nov 2016 05:00:06 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[In this episode, Chris, Todd, and Jess discuss how awesome Visual Studio Code is while Todd defends the relevance of the full-blown Visual Studio "Classic Cadillac" IDE.  What's the difference between an "IDE" and the new breed of powerful and extensible "text editors" such as Notepad++, Sublime Text, and now Visual Studio Code.  Oh yeah, and Jess gets yet another reason to talk about how great TypeScript is, too.]]></description>
+      <content:encoded><![CDATA[In this episode, Chris, Todd, and Jess discuss how awesome Visual Studio Code is while Todd defends the relevance of the full-blown Visual Studio "Classic Cadillac" IDE.  What's the difference between an "IDE" and the new breed of powerful and extensible "text editors" such as Notepad++, Sublime Text, and now Visual Studio Code.  Oh yeah, and Jess gets yet another reason to talk about how great TypeScript is, too.
+
+<strong>Show Links</strong>
+<ul>
+	<li><a href="https://channel9.msdn.com/Events/Build/2016/B886">Extending the Visual Studio IDE ("classic Cadillac")</a></li>
+<li><a href="https://code.visualstudio.com/docs/extensions/overview">Extending Visual Studio Code</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=jesschadwick.nuget-reverse-package-search">Jess's VS Code NuGet Reverse Package Search extension</a> (<a href="https://github.com/jchadwick/nuget-reverse-package-search">Source Code</a>)</li>
+</ul>
+
+]]></content:encoded>
+      <itunes:subtitle>In this episode, Chris, Todd, and Jess discuss how awesome Visual Studio Code is while Todd defends the relevance of the full-blown Visual Studio "Classic Cadillac" IDE.  What's the difference between an "IDE" and the new breed of powerful and extensible "text editors" such as Notepad++, Sublime Text, and now Visual Studio Code.  Oh yeah, and Jess gets yet another reason to talk about how great TypeScript is, too.</itunes:subtitle>
+      <itunes:summary><![CDATA[In this episode, Chris, Todd, and Jess discuss how awesome Visual Studio Code is while Todd defends the relevance of the full-blown Visual Studio "Classic Cadillac" IDE.  What's the difference between an "IDE" and the new breed of powerful and extensible "text editors" such as Notepad++, Sublime Text, and now Visual Studio Code.  Oh yeah, and Jess gets yet another reason to talk about how great TypeScript is, too.
+
+<strong>Show Links</strong>
+<ul>
+	<li><a href="https://channel9.msdn.com/Events/Build/2016/B886">Extending the Visual Studio IDE ("classic Cadillac")</a></li>
+<li><a href="https://code.visualstudio.com/docs/extensions/overview">Extending Visual Studio Code</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=jesschadwick.nuget-reverse-package-search">Jess's VS Code NuGet Reverse Package Search extension</a> (<a href="https://github.com/jchadwick/nuget-reverse-package-search">Source Code</a>)</li>
+</ul>
+
+]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:55:37</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/net-core-rtm-down-and-dirty</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20160803AspNetCoreHowTo/StaticVoidPodcast-20160803-AspNetCoreHowTo.mp3" length="23280694" type="audio/mpeg" />
+      <title>.NET Core RTM - Real World &amp;quot;File &amp;gt; New Project&amp;quot;</title>
+      <link>https://www.staticvoidpodcast.com/net-core-rtm-down-and-dirty</link>
+      <comments>https://www.staticvoidpodcast.com/net-core-rtm-down-and-dirty#comments</comments>
+      <pubDate>Tue, 23 Aug 2016 06:24:00 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Several episodes in to the ".NET Core RTM" series, Jess, Todd, and Chris finally get down to the specifics of how to use .NET Core.  Starting with File > New Project all the way down to View Components, they talk about what it's like to actually use ASP.NET Core to develop real web applications.]]></description>
+      <content:encoded><![CDATA[Several episodes in to the ".NET Core RTM" series, Jess, Todd, and Chris finally get down to the specifics of how to use .NET Core.  Starting with File > New Project all the way down to View Components, they talk about what it's like to actually use ASP.NET Core to develop real web applications.]]></content:encoded>
+      <itunes:subtitle>Several episodes in to the ".NET Core RTM" series, Jess, Todd, and Chris finally get down to the specifics of how to use .NET Core.  Starting with File > New Project all the way down to View Components, they talk about what it's like to actually use ASP.NET Core to develop real web applications.</itunes:subtitle>
+      <itunes:summary><![CDATA[Several episodes in to the ".NET Core RTM" series, Jess, Todd, and Chris finally get down to the specifics of how to use .NET Core.  Starting with File > New Project all the way down to View Components, they talk about what it's like to actually use ASP.NET Core to develop real web applications.]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:59:02</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/net-core-rtm-jeff-fritz-explains-why-it-could-be-awesome-after-all</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcastAspNetCoreRTMJeffFritz/StaticVoidPodcast-AspNetCoreRTM-JeffFritz.mp3" length="31203979" type="audio/mpeg" />
+      <title>.NET Core RTM - Jeff Fritz explains why it could be awesome after all</title>
+      <link>https://www.staticvoidpodcast.com/net-core-rtm-jeff-fritz-explains-why-it-could-be-awesome-after-all</link>
+      <comments>https://www.staticvoidpodcast.com/net-core-rtm-jeff-fritz-explains-why-it-could-be-awesome-after-all#comments</comments>
+      <pubDate>Mon, 15 Aug 2016 05:00:56 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Jeff Fritz from Microsoft joins Jess, Todd, and Chris to talk about .NET Core and we challenge our discussion of .NET Core RTM in the previous episode.  Now that you've heard several sides of the story, what do you think?  Let us know at staticvoidpodcast.com!]]></description>
+      <content:encoded><![CDATA[Jeff Fritz from Microsoft joins Jess, Todd, and Chris to talk about .NET Core and we challenge our discussion of .NET Core RTM in the previous episode.  Now that you've heard several sides of the story, what do you think?  Let us know at <a href="https://www.staticvoidpodcast.com">staticvoidpodcast.com</a>!]]></content:encoded>
+      <itunes:subtitle>Jeff Fritz from Microsoft joins Jess, Todd, and Chris to talk about .NET Core and we challenge our discussion of .NET Core RTM in the previous episode.  Now that you've heard several sides of the story, what do you think?  Let us know at staticvoidpodcast.com!</itunes:subtitle>
+      <itunes:summary><![CDATA[Jeff Fritz from Microsoft joins Jess, Todd, and Chris to talk about .NET Core and we challenge our discussion of .NET Core RTM in the previous episode.  Now that you've heard several sides of the story, what do you think?  Let us know at <a href="https://www.staticvoidpodcast.com">staticvoidpodcast.com</a>!]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:20:01</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/net-core-rtm-overview</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcastDotNetCoreRTM/StaticVoidPodcast-DotNetCoreRTM.mp3" length="52264541" type="audio/mpeg" />
+      <title>.NET Core RTM - What is it and what does it mean?</title>
+      <link>https://www.staticvoidpodcast.com/net-core-rtm-overview</link>
+      <comments>https://www.staticvoidpodcast.com/net-core-rtm-overview#comments</comments>
+      <pubDate>Mon, 25 Jul 2016 04:37:27 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[In this episode, Jess, Todd, and Chris talk about the fact that .NET Core (and ASP.NET Core) have been officially released, and contemplate what that means and how it might (or might not) affect .NET developers.]]></description>
+      <content:encoded><![CDATA[In this episode, Jess, Todd, and Chris talk about the fact that .NET Core (and ASP.NET Core) have been officially released, and contemplate what that means and how it might (or might not) affect .NET developers.
+
+Some links to content discussed in the episode:
+
+<ul>
+	<li><a href="https://dot.net/">.NET Core home page</a></li>
+	<li><a href="https://docs.asp.net/en/latest/">ASP.NET Core Documentation</a></li>
+	<li><a href="https://docs.microsoft.com/en-us/dotnet/articles/welcome">.NET Core Documentation</a></li>
+	<li><a href="https://blogs.msdn.microsoft.com/dotnet/2016/06/27/announcing-net-core-1-0/">Blog Post: Announcing .NET Core 1.0</a></li>
+	<li><a href="https://blogs.msdn.microsoft.com/webdev/2016/06/27/announcing-asp-net-core-1-0/">Blog Post: Announcing ASP.NET Core 1.0</a></li>
+	<li><a href="https://blogs.msdn.microsoft.com/dotnet/2016/06/27/entity-framework-core-1-0-0-available/">Blog Post: Announcing Entity Framework Core 1.0</a></li>
+	<li><a href="https://blogs.msdn.microsoft.com/nzdev/2016/07/17/the-net-core-rtm/">Blog Post: .NET Core RTM Announced at Red Hat Conference</a></li>
+</ul>
+
+<strong>Videos about ASP.NET Core RTM</strong>
+
+<ul>
+	<li><a href="https://live.asp.net/">ASP.NET Community Standup</a></li>
+	<li><a href="https://www.youtube.com/watch?v=MiUrYH3ybX0">Conference General Session including announcement</a></li>
+	<li><a href="https://www.youtube.com/watch?v=MiUrYH3ybX0?t=47m14s">Conference General Session including announcement (Scott Hanselman's presentation)</a></li>
+	<li><a href="https://vimeo.com/172009499">ASP.NET Core Kestrel: Adventures in building a fast web server - Damian Edwards, David Fowler</a></li>
+	<li><a href="https://vimeo.com/171995866">ASP.NET Core 1.0 Deep Dive - David Fowler & Damian Edwards</a></li>
+	<li><a href="https://github.com/aspnet/benchmarks">Benchmarks for ASP.NET demonstrating Kestrel performance</a></li>
+	<li><a href="https://www.techempower.com/benchmarks/#section=intro">Introduction to TechEmpower benchmarks</a></li>
+</ul>
+]]></content:encoded>
+      <itunes:subtitle>In this episode, Jess, Todd, and Chris talk about the fact that .NET Core (and ASP.NET Core) have been officially released, and contemplate what that means and how it might (or might not) affect .NET developers.</itunes:subtitle>
+      <itunes:summary><![CDATA[In this episode, Jess, Todd, and Chris talk about the fact that .NET Core (and ASP.NET Core) have been officially released, and contemplate what that means and how it might (or might not) affect .NET developers.
+
+Some links to content discussed in the episode:
+
+<ul>
+	<li><a href="https://dot.net/">.NET Core home page</a></li>
+	<li><a href="https://docs.asp.net/en/latest/">ASP.NET Core Documentation</a></li>
+	<li><a href="https://docs.microsoft.com/en-us/dotnet/articles/welcome">.NET Core Documentation</a></li>
+	<li><a href="https://blogs.msdn.microsoft.com/dotnet/2016/06/27/announcing-net-core-1-0/">Blog Post: Announcing .NET Core 1.0</a></li>
+	<li><a href="https://blogs.msdn.microsoft.com/webdev/2016/06/27/announcing-asp-net-core-1-0/">Blog Post: Announcing ASP.NET Core 1.0</a></li>
+	<li><a href="https://blogs.msdn.microsoft.com/dotnet/2016/06/27/entity-framework-core-1-0-0-available/">Blog Post: Announcing Entity Framework Core 1.0</a></li>
+	<li><a href="https://blogs.msdn.microsoft.com/nzdev/2016/07/17/the-net-core-rtm/">Blog Post: .NET Core RTM Announced at Red Hat Conference</a></li>
+</ul>
+
+<strong>Videos about ASP.NET Core RTM</strong>
+
+<ul>
+	<li><a href="https://live.asp.net/">ASP.NET Community Standup</a></li>
+	<li><a href="https://www.youtube.com/watch?v=MiUrYH3ybX0">Conference General Session including announcement</a></li>
+	<li><a href="https://www.youtube.com/watch?v=MiUrYH3ybX0?t=47m14s">Conference General Session including announcement (Scott Hanselman's presentation)</a></li>
+	<li><a href="https://vimeo.com/172009499">ASP.NET Core Kestrel: Adventures in building a fast web server - Damian Edwards, David Fowler</a></li>
+	<li><a href="https://vimeo.com/171995866">ASP.NET Core 1.0 Deep Dive - David Fowler & Damian Edwards</a></li>
+	<li><a href="https://github.com/aspnet/benchmarks">Benchmarks for ASP.NET demonstrating Kestrel performance</a></li>
+	<li><a href="https://www.techempower.com/benchmarks/#section=intro">Introduction to TechEmpower benchmarks</a></li>
+</ul>
+]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:54:27</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/browser-development-platform</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20160517BrowserDevPlatform/StaticVoidPodcast-20160517-BrowserDevPlatform.mp3" length="28732250" type="audio/mpeg" />
+      <title>The Browser as a Development Platform</title>
+      <link>https://www.staticvoidpodcast.com/browser-development-platform</link>
+      <comments>https://www.staticvoidpodcast.com/browser-development-platform#comments</comments>
+      <pubDate>Mon, 23 May 2016 05:50:25 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[In this episode, Jess, Todd, and Chris debate the merits and the suitability of using the browser as an application development platform.  From memory management, to the DOM, to deployment, to Todd wishing that Silverlight never died, we touch on a variety of aspects involved in working in the browser.]]></description>
+      <content:encoded><![CDATA[In this episode, Jess, Todd, and Chris debate the merits and the suitability of using the browser as an application development platform.  From memory management, to the DOM, to deployment, to Todd wishing that Silverlight never died, we touch on a variety of aspects involved in working in the browser.]]></content:encoded>
+      <itunes:subtitle>In this episode, Jess, Todd, and Chris debate the merits and the suitability of using the browser as an application development platform.  From memory management, to the DOM, to deployment, to Todd wishing that Silverlight never died, we touch on a variety of aspects involved in working in the browser.</itunes:subtitle>
+      <itunes:summary><![CDATA[In this episode, Jess, Todd, and Chris debate the merits and the suitability of using the browser as an application development platform.  From memory management, to the DOM, to deployment, to Todd wishing that Silverlight never died, we touch on a variety of aspects involved in working in the browser.]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:11:02</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/code-sprawl-with-matt-hornsby</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20160512CodeSprawl/StaticVoidPodcast-20160512-CodeSprawl.mp3" length="29405343" type="audio/mpeg" />
+      <title>Code Sprawl with Matt Hornsby</title>
+      <link>https://www.staticvoidpodcast.com/code-sprawl-with-matt-hornsby</link>
+      <comments>https://www.staticvoidpodcast.com/code-sprawl-with-matt-hornsby#comments</comments>
+      <pubDate>Thu, 12 May 2016 05:34:50 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Chris, Todd, and Jess welcome their guest Matt Hornsby to discuss a concept he calls "Code Sprawl" to describe the evolution and decay of software systems over time.  Relating the growth and aging of a software project to the growth and decay of urban areas, he draws parallels to identify what goes wrong.  He also presents hope that we can learn from urban renewal as well.]]></description>
+      <content:encoded><![CDATA[Chris, Todd, and Jess welcome their guest Matt Hornsby to discuss a concept he calls "Code Sprawl" to describe the evolution and decay of software systems over time.  Relating the growth and aging of a software project to the growth and decay of urban areas, he draws parallels to identify what goes wrong.  He also presents hope that we can learn from urban renewal as well.
+
+&nbsp;
+
+<strong>About our guest</strong>
+Matt Hornsby is an experienced principal software engineer who has led teams building Internet scale applications such as healthcare exchanges and retail websites that are among the largest in the world. This led Matt to develop a passion for guiding his teams to build maintainable systems and write quality code.
+
+<strong>Related Links</strong>
+<ul>
+	<li><a href="http://www.amazon.com/Sprawl-Repair-Manual-Galina-Tachieva/dp/1597267325" target="_blank">Sprawl Repair Manual</a></li>
+	<li><a href="http://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654">The Design of Everyday Things</a></li>
+	<li><a href="http://www.newyorker.com/science/maria-konnikova/social-media-affect-math-dunbar-number-friendships">The Dunbar Number</a></li>
+	<li><a href="http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028">Christopher Alexander: A Timeless Way of Building</a></li>
+	<li><a href="http://99percentinvisible.org/episode/ten-thousand-years/">A warning to last ten thousand years</a></li>
+</ul>]]></content:encoded>
+      <itunes:subtitle>Chris, Todd, and Jess welcome their guest Matt Hornsby to discuss a concept he calls "Code Sprawl" to describe the evolution and decay of software systems over time.  Relating the growth and aging of a software project to the growth and decay of urban areas, he draws parallels to identify what goes wrong.  He also presents hope that we can learn from urban renewal as well.</itunes:subtitle>
+      <itunes:summary><![CDATA[Chris, Todd, and Jess welcome their guest Matt Hornsby to discuss a concept he calls "Code Sprawl" to describe the evolution and decay of software systems over time.  Relating the growth and aging of a software project to the growth and decay of urban areas, he draws parallels to identify what goes wrong.  He also presents hope that we can learn from urban renewal as well.
+
+&nbsp;
+
+<strong>About our guest</strong>
+Matt Hornsby is an experienced principal software engineer who has led teams building Internet scale applications such as healthcare exchanges and retail websites that are among the largest in the world. This led Matt to develop a passion for guiding his teams to build maintainable systems and write quality code.
+
+<strong>Related Links</strong>
+<ul>
+	<li><a href="http://www.amazon.com/Sprawl-Repair-Manual-Galina-Tachieva/dp/1597267325" target="_blank">Sprawl Repair Manual</a></li>
+	<li><a href="http://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654">The Design of Everyday Things</a></li>
+	<li><a href="http://www.newyorker.com/science/maria-konnikova/social-media-affect-math-dunbar-number-friendships">The Dunbar Number</a></li>
+	<li><a href="http://www.amazon.com/Timeless-Way-Building-Christopher-Alexander/dp/0195024028">Christopher Alexander: A Timeless Way of Building</a></li>
+	<li><a href="http://99percentinvisible.org/episode/ten-thousand-years/">A warning to last ten thousand years</a></li>
+</ul>]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:18:10</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/wcf-vs-web-api</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20160427WCFvsWebAPI/StaticVoidPodcast-20160427-WCFvsWebAPI.mp3" length="26168210" type="audio/mpeg" />
+      <title>WCF vs. Web API</title>
+      <link>https://www.staticvoidpodcast.com/wcf-vs-web-api</link>
+      <comments>https://www.staticvoidpodcast.com/wcf-vs-web-api#comments</comments>
+      <pubDate>Tue, 03 May 2016 04:06:01 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Microsoft offers two frameworks that both allow you to create fully-functional web services and HTTP-based "web APIs".  Which one should you choose?]]></description>
+      <content:encoded><![CDATA[Microsoft offers two frameworks that both allow you to create fully-functional web services and HTTP-based "web APIs".  Which one should you choose?
+
+Join Jess, Todd, and Chris as they debate the merits and "proper" usage of the two most popular Microsoft frameworks for creating web-based services:  WCF and Web API.
+
+<strong>Show Links</strong>
+<ul>
+	<li><a href="http://www.asp.net/web-api">ASP.NET Web API</a></li>
+	<li><a href="https://msdn.microsoft.com/en-us/library/dd456779(v=vs.110).aspx">Microsoft WCF (Windows Communication Foundation)</a></li>
+</ul>
+
+]]></content:encoded>
+      <itunes:subtitle>Microsoft offers two frameworks that both allow you to create fully-functional web services and HTTP-based "web APIs".  Which one should you choose?</itunes:subtitle>
+      <itunes:summary><![CDATA[Microsoft offers two frameworks that both allow you to create fully-functional web services and HTTP-based "web APIs".  Which one should you choose?
+
+Join Jess, Todd, and Chris as they debate the merits and "proper" usage of the two most popular Microsoft frameworks for creating web-based services:  WCF and Web API.
+
+<strong>Show Links</strong>
+<ul>
+	<li><a href="http://www.asp.net/web-api">ASP.NET Web API</a></li>
+	<li><a href="https://msdn.microsoft.com/en-us/library/dd456779(v=vs.110).aspx">Microsoft WCF (Windows Communication Foundation)</a></li>
+</ul>
+
+]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:54:34</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/the-best-c-6-features</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20160328CSharp6/StaticVoidPodcast-20160328-CSharp6.mp3" length="34368034" type="audio/mpeg" />
+      <title>The Best C# 6 Features</title>
+      <link>https://www.staticvoidpodcast.com/the-best-c-6-features</link>
+      <comments>https://www.staticvoidpodcast.com/the-best-c-6-features#comments</comments>
+      <pubDate>Mon, 25 Apr 2016 04:44:59 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Chris, Todd, and Jess discuss the cool new features available in C# 6. Some will save you keystrokes, some may save you bugs, and some... well, some you may never actually use (but why not find out about them anyway?).]]></description>
+      <content:encoded><![CDATA[Chris, Todd, and Jess discuss the cool new features available in C# 6. Some will save you keystrokes, some may save you bugs, and some... well, some you may never actually use (but why not find out about them anyway?).
+
+<strong>Show Links</strong>
+<ul>
+	<li><a href="https://github.com/dotnet/roslyn/wiki/New-Language-Features-in-C%23-6">New language features in C# 6 (Rosyln GitHub wiki)</a></li>
+	<li><a href="https://github.com/dotnet/roslyn">Roslyn GitHub site</a></li>
+	<li><a href="https://leanpub.com/essentialtypescript"><em>Essential TypeScript</em></a> by Jess Chadwick</li>
+	<li><a href="https://t.co/0uF4yrMeiq">Steve Michelotti’s Code/Slides on C# 6</a></li>
+</ul>]]></content:encoded>
+      <itunes:subtitle>Chris, Todd, and Jess discuss the cool new features available in C# 6. Some will save you keystrokes, some may save you bugs, and some... well, some you may never actually use (but why not find out about them anyway?).</itunes:subtitle>
+      <itunes:summary><![CDATA[Chris, Todd, and Jess discuss the cool new features available in C# 6. Some will save you keystrokes, some may save you bugs, and some... well, some you may never actually use (but why not find out about them anyway?).
+
+<strong>Show Links</strong>
+<ul>
+	<li><a href="https://github.com/dotnet/roslyn/wiki/New-Language-Features-in-C%23-6">New language features in C# 6 (Rosyln GitHub wiki)</a></li>
+	<li><a href="https://github.com/dotnet/roslyn">Roslyn GitHub site</a></li>
+	<li><a href="https://leanpub.com/essentialtypescript"><em>Essential TypeScript</em></a> by Jess Chadwick</li>
+	<li><a href="https://t.co/0uF4yrMeiq">Steve Michelotti’s Code/Slides on C# 6</a></li>
+</ul>]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>0:56:56</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/build-2016-response-show</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20160406BUILDResp/StaticVoidPodcast-20160406-BUILDResp.mp3" length="43550366" type="audio/mpeg" />
+      <title>BUILD 2016 Response Show</title>
+      <link>https://www.staticvoidpodcast.com/build-2016-response-show</link>
+      <comments>https://www.staticvoidpodcast.com/build-2016-response-show#comments</comments>
+      <pubDate>Mon, 18 Apr 2016 05:28:04 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[In this episode, Jess, Chris, and Todd share their thoughts on the announcements and presentations that happened at Microsoft's BUILD 2016 developer conference.]]></description>
+      <content:encoded><![CDATA[In this episode, Jess, Chris, and Todd share their thoughts on the announcements and presentations that happened at Microsoft's BUILD 2016 developer conference.
+
+The biggest question is: how much of this is (or will be) actually relevant to us? ]]></content:encoded>
+      <itunes:subtitle>In this episode, Jess, Chris, and Todd share their thoughts on the announcements and presentations that happened at Microsoft's BUILD 2016 developer conference.</itunes:subtitle>
+      <itunes:summary><![CDATA[In this episode, Jess, Chris, and Todd share their thoughts on the announcements and presentations that happened at Microsoft's BUILD 2016 developer conference.
+
+The biggest question is: how much of this is (or will be) actually relevant to us? ]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:12:14</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/automated-testing-for-developers</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20160111AutomatedTesting/StaticVoidPodcast-20160111-AutomatedTesting.mp3" length="44276834" type="audio/mpeg" />
+      <title>Automated Testing for Developers</title>
+      <link>https://www.staticvoidpodcast.com/automated-testing-for-developers</link>
+      <comments>https://www.staticvoidpodcast.com/automated-testing-for-developers#comments</comments>
+      <pubDate>Tue, 15 Mar 2016 03:01:13 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[In this episode, Todd, Jess, and Chris chat about automating developer testing.  Some call it "TDD", some call it "BDD", but we just call it a good topic for a show!  Join us as we talk about our varying experiences with creating, modifying, getting rid of, or even completely avoiding automated unit tests and how it's affected us.]]></description>
+      <content:encoded><![CDATA[In this episode, Todd, Jess, and Chris chat about automating developer testing.  Some call it "TDD", some call it "BDD", but we just call it a good topic for a show!  Join us as we talk about our varying experiences with creating, modifying, getting rid of, or even completely avoiding automated unit tests and how it's affected us.
+
+In this episode, we mention the following great resources:
+<ul>
+	<li><a href="http://amzn.to/1pHUALi" target="_blank">Working Effectively with Legacy Code by Michael Feathers</a></li>
+<li><a href="http://www.fitnesse.org/">FitNesse - wiki and acceptance testing framework</a></li>
+<li><a href="http://www.specflow.org/">SpecFlow - BDD testing framework</a></li>
+</ul>
+
+And, here are some other great resources that we didn't happen to mention but you should check out anyway!
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Test-driven_development">Test-Driven Development on Wikipedia</a> (yes, it's a great resource!)</li>
+<li><a href="http://www.nunit.org/">NUnit - .NET unit testing framework</a></li>
+<li><a href="https://github.com/xunit/xunit">xUnit - .NET unit testing framework</a></li>
+<li><a href="http://www.seleniumhq.org/">Selenium - Browser automation (acceptance testing) framework</a></li>
+<li><a href="http://nightwatchjs.org/">Nightwatch.js - Write your Selenium tests in JavaScript (Node.JS)</a>  (works great for any web application - even if it's written in .NET!)</li>
+<li><a href="http://www.codeproject.com/Articles/886492/Learning-Test-Driven-Development-with-TDD-Katas">Learning TDD with Katas</a></li>
+</ul>]]></content:encoded>
+      <itunes:subtitle>In this episode, Todd, Jess, and Chris chat about automating developer testing.  Some call it "TDD", some call it "BDD", but we just call it a good topic for a show!  Join us as we talk about our varying experiences with creating, modifying, getting rid of, or even completely avoiding automated unit tests and how it's affected us.</itunes:subtitle>
+      <itunes:summary><![CDATA[In this episode, Todd, Jess, and Chris chat about automating developer testing.  Some call it "TDD", some call it "BDD", but we just call it a good topic for a show!  Join us as we talk about our varying experiences with creating, modifying, getting rid of, or even completely avoiding automated unit tests and how it's affected us.
+
+In this episode, we mention the following great resources:
+<ul>
+	<li><a href="http://amzn.to/1pHUALi" target="_blank">Working Effectively with Legacy Code by Michael Feathers</a></li>
+<li><a href="http://www.fitnesse.org/">FitNesse - wiki and acceptance testing framework</a></li>
+<li><a href="http://www.specflow.org/">SpecFlow - BDD testing framework</a></li>
+</ul>
+
+And, here are some other great resources that we didn't happen to mention but you should check out anyway!
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Test-driven_development">Test-Driven Development on Wikipedia</a> (yes, it's a great resource!)</li>
+<li><a href="http://www.nunit.org/">NUnit - .NET unit testing framework</a></li>
+<li><a href="https://github.com/xunit/xunit">xUnit - .NET unit testing framework</a></li>
+<li><a href="http://www.seleniumhq.org/">Selenium - Browser automation (acceptance testing) framework</a></li>
+<li><a href="http://nightwatchjs.org/">Nightwatch.js - Write your Selenium tests in JavaScript (Node.JS)</a>  (works great for any web application - even if it's written in .NET!)</li>
+<li><a href="http://www.codeproject.com/Articles/886492/Learning-Test-Driven-Development-with-TDD-Katas">Learning TDD with Katas</a></li>
+</ul>]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:13:27</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/net-core-and-asp-net-core-1-0</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20160121DotNetCore/StaticVoidPodcast-20160121-DotNetCore.mp3" length="37653460" type="audio/mpeg" />
+      <title>.NET Core and ASP.NET Core 1.0</title>
+      <link>https://www.staticvoidpodcast.com/net-core-and-asp-net-core-1-0</link>
+      <comments>https://www.staticvoidpodcast.com/net-core-and-asp-net-core-1-0#comments</comments>
+      <pubDate>Wed, 27 Jan 2016 06:03:09 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Join Todd, Chris, and Jess as they wade through the waters of the "new" (but not really new) Microsoft frameworks, .NET Core 1.0 and ASP.NET Core 1.0.  What were the motivations for the name change?  Was it a good move?  What the heck is .NET Core and ASP.NET Core, anyway?]]></description>
+      <content:encoded><![CDATA[Join Todd, Chris, and Jess as they wade through the waters of the "new" (but not really new) Microsoft frameworks, .NET Core 1.0 and ASP.NET Core 1.0.  What were the motivations for the name change?  Was it a good move?  What the heck is .NET Core and ASP.NET Core, anyway?]]></content:encoded>
+      <itunes:subtitle>Join Todd, Chris, and Jess as they wade through the waters of the "new" (but not really new) Microsoft frameworks, .NET Core 1.0 and ASP.NET Core 1.0.  What were the motivations for the name change?  Was it a good move?  What the heck is .NET Core and ASP.NET Core, anyway?</itunes:subtitle>
+      <itunes:summary><![CDATA[Join Todd, Chris, and Jess as they wade through the waters of the "new" (but not really new) Microsoft frameworks, .NET Core 1.0 and ASP.NET Core 1.0.  What were the motivations for the name change?  Was it a good move?  What the heck is .NET Core and ASP.NET Core, anyway?]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:02:25</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/war-stories</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/20151220WarStories/20151220-War-Stories.mp3" length="28840159" type="audio/mpeg" />
+      <title>War Stories</title>
+      <link>https://www.staticvoidpodcast.com/war-stories</link>
+      <comments>https://www.staticvoidpodcast.com/war-stories#comments</comments>
+      <pubDate>Wed, 23 Dec 2015 07:06:38 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[In this episode, Todd, Chris, and Jess embrace the holiday spirit and share the stories that have molded them into the hardened code slingers they are today.  Did Chris actually meet the real, live Batman while on a job in the middle of the night in Disneyland?  Will Jess ever actually get fired - or even scolded - for deleting production databases and bringing production websites to a grinding halt?  Why does Todd carry around 4 laptop power adapters to this day?  Listen to our stories and decide for yourself.]]></description>
+      <content:encoded><![CDATA[In this episode, Todd, Chris, and Jess embrace the holiday spirit and share the stories that have molded them into the hardened code slingers they are today.  Did Chris actually meet the real, live Batman while on a job in the middle of the night in Disneyland?  Will Jess ever actually get fired - or even scolded - for deleting production databases and bringing production websites to a grinding halt?  Why does Todd carry around 4 laptop power adapters to this day?  Listen to our stories and decide for yourself.
+
+If you enjoy the show, please let us know by leaving a comment on iTunes or on our website:  http://www.staticvoidpodcast.com.  We're dying to hear what you think!]]></content:encoded>
+      <itunes:subtitle>In this episode, Todd, Chris, and Jess embrace the holiday spirit and share the stories that have molded them into the hardened code slingers they are today.  Did Chris actually meet the real, live Batman while on a job in the middle of the night in Disneyland?  Will Jess ever actually get fired - or even scolded - for deleting production databases and bringing production websites to a grinding halt?  Why does Todd carry around 4 laptop power adapters to this day?  Listen to our stories and decide for yourself.</itunes:subtitle>
+      <itunes:summary><![CDATA[In this episode, Todd, Chris, and Jess embrace the holiday spirit and share the stories that have molded them into the hardened code slingers they are today.  Did Chris actually meet the real, live Batman while on a job in the middle of the night in Disneyland?  Will Jess ever actually get fired - or even scolded - for deleting production databases and bringing production websites to a grinding halt?  Why does Todd carry around 4 laptop power adapters to this day?  Listen to our stories and decide for yourself.
+
+If you enjoy the show, please let us know by leaving a comment on iTunes or on our website:  http://www.staticvoidpodcast.com.  We're dying to hear what you think!]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:47:45</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/specialist-vs-generalist-which-are-you</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/20151206Specialists/20151206-Specialists.mp3" length="24856474" type="audio/mpeg" />
+      <title>Specialist vs. Generalist: Which are you?</title>
+      <link>https://www.staticvoidpodcast.com/specialist-vs-generalist-which-are-you</link>
+      <comments>https://www.staticvoidpodcast.com/specialist-vs-generalist-which-are-you#comments</comments>
+      <pubDate>Sat, 12 Dec 2015 05:00:58 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[In this episode, Jess, Chris, and Todd try to figure out what it means to be a specialist vs. a generalist in software development.  Does being a generalist help you be a better specialist... or vice-versa?  Can you even be one without the other?  Join us as we try (and fail?) to answer these questions and manage to get an episode under one hour long.]]></description>
+      <content:encoded><![CDATA[In this episode, Jess, Chris, and Todd try to figure out what it means to be a specialist vs. a generalist in software development.  Does being a generalist help you be a better specialist... or vice-versa?  Can you even be one without the other?  Join us as we try (and fail?) to answer these questions and manage to get an episode under one hour long.]]></content:encoded>
+      <itunes:subtitle>In this episode, Jess, Chris, and Todd try to figure out what it means to be a specialist vs. a generalist in software development.  Does being a generalist help you be a better specialist... or vice-versa?  Can you even be one without the other?  Join us as we try (and fail?) to answer these questions and manage to get an episode under one hour long.</itunes:subtitle>
+      <itunes:summary><![CDATA[In this episode, Jess, Chris, and Todd try to figure out what it means to be a specialist vs. a generalist in software development.  Does being a generalist help you be a better specialist... or vice-versa?  Can you even be one without the other?  Join us as we try (and fail?) to answer these questions and manage to get an episode under one hour long.]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:51:23</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/typescript-javascript-evolved-or-devolved</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20151125TypeScript/StaticVoidPodcast-20151125-TypeScript.mp3" length="36944075" type="audio/mpeg" />
+      <title>TypeScript: JavaScript Evolved or Devolved?</title>
+      <link>https://www.staticvoidpodcast.com/typescript-javascript-evolved-or-devolved</link>
+      <comments>https://www.staticvoidpodcast.com/typescript-javascript-evolved-or-devolved#comments</comments>
+      <pubDate>Thu, 03 Dec 2015 12:00:36 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[It's TypeScript battle royale style as Jess, Chris and Todd discuss the emergence of TypeScript, ECMAScript 6 and the growth of JavaScript transpilers. Hear Jess promote the benefits of TypeScript for improving the quality of JavaScript and developer productivity. Meanwhile, Chris and Todd take on the competing argument that TypeScript is just syntactic sugar and that add classes and types on top of pure JavaScript can end up being a leaky abstraction that does more harm than good. ]]></description>
+      <content:encoded><![CDATA[It's TypeScript battle royale style as Jess, Chris and Todd discuss the emergence of TypeScript, ECMAScript 6 and the growth of JavaScript transpilers. Hear Jess promote the benefits of TypeScript for improving the quality of JavaScript and developer productivity. Meanwhile, Chris and Todd take on the competing argument that TypeScript is just syntactic sugar and that add classes and types on top of pure JavaScript can end up being a leaky abstraction that does more harm than good. 
+
+<p>Mentioned in the show:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=qRD7bkK7m10">Introduction to TypeScript: Jess’s free TypeScript training video</a></li>
+<li><a href="http://www.typescriptlang.org/">Overview of TypeScript</a></li>
+<li><a href="http://www.ecma-international.org/ecma-262/6.0/">ECMA Script 6 (or
+SCMA Script 2015)</a></li>
+<li><a href="https://kangax.github.io/compat-table/es6/">ECMA Script 6 Browser Compatibility Table</a></li>
+<li><a href="https://angular.io/docs/ts/latest/index.html">Angular2 (is built with TypeScript)</a></li>
+<li><a href="http://tc39wiki.calculist.org/es6/arrow-functions/">ES6 Arrow Functions</a> </li>
+<li><a href="https://www.npmjs.com/">npm – The nodejs package manager, which has also become a go to for more than just nodejs development</a></li>
+</ul>
+
+
+<p>Not mentioned in the show, but worth checking out:</p>
+<ul>
+<li><a href="https://leanpub.com/essentialtypescript">Essential TypeScript by Jess Chadwick</a> - <strong>free</strong> TypeScript eBook</li>
+</ul>]]></content:encoded>
+      <itunes:subtitle>It's TypeScript battle royale style as Jess, Chris and Todd discuss the emergence of TypeScript, ECMAScript 6 and the growth of JavaScript transpilers. Hear Jess promote the benefits of TypeScript for improving the quality of JavaScript and developer productivity. Meanwhile, Chris and Todd take on the competing argument that TypeScript is just syntactic sugar and that add classes and types on top of pure JavaScript can end up being a leaky abstraction that does more harm than good. </itunes:subtitle>
+      <itunes:summary><![CDATA[It's TypeScript battle royale style as Jess, Chris and Todd discuss the emergence of TypeScript, ECMAScript 6 and the growth of JavaScript transpilers. Hear Jess promote the benefits of TypeScript for improving the quality of JavaScript and developer productivity. Meanwhile, Chris and Todd take on the competing argument that TypeScript is just syntactic sugar and that add classes and types on top of pure JavaScript can end up being a leaky abstraction that does more harm than good. 
+
+<p>Mentioned in the show:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=qRD7bkK7m10">Introduction to TypeScript: Jess’s free TypeScript training video</a></li>
+<li><a href="http://www.typescriptlang.org/">Overview of TypeScript</a></li>
+<li><a href="http://www.ecma-international.org/ecma-262/6.0/">ECMA Script 6 (or
+SCMA Script 2015)</a></li>
+<li><a href="https://kangax.github.io/compat-table/es6/">ECMA Script 6 Browser Compatibility Table</a></li>
+<li><a href="https://angular.io/docs/ts/latest/index.html">Angular2 (is built with TypeScript)</a></li>
+<li><a href="http://tc39wiki.calculist.org/es6/arrow-functions/">ES6 Arrow Functions</a> </li>
+<li><a href="https://www.npmjs.com/">npm – The nodejs package manager, which has also become a go to for more than just nodejs development</a></li>
+</ul>
+
+
+<p>Not mentioned in the show, but worth checking out:</p>
+<ul>
+<li><a href="https://leanpub.com/essentialtypescript">Essential TypeScript by Jess Chadwick</a> - <strong>free</strong> TypeScript eBook</li>
+</ul>]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:16:34</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/connect-response-show</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20151122ConnectResponse/StaticVoidPodcast-20151122-ConnectResponse.mp3" length="31420541" type="audio/mpeg" />
+      <title>Connect(); Response Show</title>
+      <link>https://www.staticvoidpodcast.com/connect-response-show</link>
+      <comments>https://www.staticvoidpodcast.com/connect-response-show#comments</comments>
+      <pubDate>Fri, 27 Nov 2015 12:00:48 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[In this episode Jess, Chris and Todd discuss the big announcements from the Microsoft Connect(); conference on November 18 and 19. Hear their thoughts and reactions to the changes in Visual Studio 2015, the beta release of Visual Studio Code, the announcement of Visual Studio Dev Essentials, the RC release of ASP.NET 5 and all the new exciting things coming down the pike for Azure and the rest of the Microsoft Server Stack.]]></description>
+      <content:encoded><![CDATA[<p>In this episode Jess, Chris and Todd discuss the big announcements from the Microsoft Connect(); conference on November 18 and 19. Hear their thoughts and reactions to the changes in Visual Studio 2015, the beta release of Visual Studio Code, the announcement of Visual Studio Dev Essentials, the RC release of ASP.NET 5 and all the new exciting things coming down the pike for Azure and the rest of the Microsoft Server Stack.
+</p>
+
+<p>Mentioned in the show:
+<ul>
+	<li><a href="https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/">Microsoft Connect() Videos</a></li>
+	<li><a href="http://blogs.msdn.com/b/visualstudio/archive/2015/11/18/news-and-announcements-from-connect-2015.aspx">News and Announcements from Connect() 2015</a></li>
+	<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> becomes beta and open source</li>
+	<li><a href="http://blogs.msdn.com/b/webdev/archive/2015/11/18/announcing-asp-net-5-release-candidate-1.aspx">ASP.NET 5 Release Candidate 1</a></li>
+	<li><a href="http://www.hanselman.com/blog/ASPNET5AndNETCoreRC1InContextPlusAllTheConnect2015News.aspx">Scott Hanselman's Connect() 2015 recap</a></li>
+	<li><a href="https://www.visualstudio.com/en-us/products/visual-studio-dev-essentials-vs.aspx">Visual Studio Dev Essentials</a></li>
+	<li><a href="https://graph.microsoft.io/">Microsoft Graph</a></li>
+	<li><a href="http://hockeyapp.net/features/">Hockey App</a></li>
+</ul>
+</p>]]></content:encoded>
+      <itunes:subtitle>In this episode Jess, Chris and Todd discuss the big announcements from the Microsoft Connect(); conference on November 18 and 19. Hear their thoughts and reactions to the changes in Visual Studio 2015, the beta release of Visual Studio Code, the announcement of Visual Studio Dev Essentials, the RC release of ASP.NET 5 and all the new exciting things coming down the pike for Azure and the rest of the Microsoft Server Stack.</itunes:subtitle>
+      <itunes:summary><![CDATA[<p>In this episode Jess, Chris and Todd discuss the big announcements from the Microsoft Connect(); conference on November 18 and 19. Hear their thoughts and reactions to the changes in Visual Studio 2015, the beta release of Visual Studio Code, the announcement of Visual Studio Dev Essentials, the RC release of ASP.NET 5 and all the new exciting things coming down the pike for Azure and the rest of the Microsoft Server Stack.
+</p>
+
+<p>Mentioned in the show:
+<ul>
+	<li><a href="https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/">Microsoft Connect() Videos</a></li>
+	<li><a href="http://blogs.msdn.com/b/visualstudio/archive/2015/11/18/news-and-announcements-from-connect-2015.aspx">News and Announcements from Connect() 2015</a></li>
+	<li><a href="https://code.visualstudio.com/">Visual Studio Code</a> becomes beta and open source</li>
+	<li><a href="http://blogs.msdn.com/b/webdev/archive/2015/11/18/announcing-asp-net-5-release-candidate-1.aspx">ASP.NET 5 Release Candidate 1</a></li>
+	<li><a href="http://www.hanselman.com/blog/ASPNET5AndNETCoreRC1InContextPlusAllTheConnect2015News.aspx">Scott Hanselman's Connect() 2015 recap</a></li>
+	<li><a href="https://www.visualstudio.com/en-us/products/visual-studio-dev-essentials-vs.aspx">Visual Studio Dev Essentials</a></li>
+	<li><a href="https://graph.microsoft.io/">Microsoft Graph</a></li>
+	<li><a href="http://hockeyapp.net/features/">Hockey App</a></li>
+</ul>
+</p>]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:05:04</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/the-net-developers-guide-to-package-managers</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20151115PackageManagement/StaticVoidPodcast-20151115-PackageManagement.mp3" length="31559948" type="audio/mpeg" />
+      <title>The .NET Developer&amp;#x27;s Guide to Package Managers</title>
+      <link>https://www.staticvoidpodcast.com/the-net-developers-guide-to-package-managers</link>
+      <comments>https://www.staticvoidpodcast.com/the-net-developers-guide-to-package-managers#comments</comments>
+      <pubDate>Fri, 20 Nov 2015 12:00:18 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[NuGet burst onto the .NET developer scene in 2010 and took Visual Studio development by storm.  We .NET developers were able to easily add key Microsoft dependencies like Entity Framework, ASP.NET Web API, or client-side libraries like jQuery and bootstrap.]]></description>
+      <content:encoded><![CDATA[NuGet burst onto the .NET developer scene in 2010 and took Visual Studio development by storm.  We .NET developers were able to easily add key Microsoft dependencies like Entity Framework, ASP.NET Web API, or client-side libraries like jQuery and bootstrap.
+
+But now new package management is front and center in Visual Studio 2015.  And there's nothing stopping you from using them in your development toolbelt today.  Where does this leave NuGet?  And what will you need to get up to speed on now?
+
+Chris, Todd, and Jess talk about what NuGet meant to developers until now, and introduce NPM and Bower and their integration into the ASP.NET 5 beta templates.  By no means is it the whole list of package managers you can use, but they will be front and center for web developers who live in Visual Studio.
+
+Mentioned in the show:
+<ul>
+	<li><a href="https://www.youtube.com/watch?v=qRD7bkK7m10" target="_blank">Introduction to TypeScript</a>: Jess's free TypeScript training video</li>
+	<li><a href="http://bower.io/" target="_blank">Bower</a> - Home page for this web development package manager</li>
+	<li><a href="https://www.npmjs.com/" target="_blank">npm</a> - The nodejs package manager, which has also become a go to for more than just nodejs development.</li>
+	<li><a href="https://msdn.microsoft.com/en-us/magazine/mt573714.aspx" target="_blank">Visual Studio - Bower: Modern Tools for Web Development</a>: Adam Tuliper dives into Bower usage in Visual Studio web projects.</li>
+	<li><a href="http://docs.asp.net/en/latest/client-side/bower.html" target="_blank">Manage client-side packages with Bower</a> - Direct from the ASP.NET 5 documentation.</li>
+	<li><a href="http://www.hanselman.com/blog/IntroducingGulpGruntBowerAndNpmSupportForVisualStudio.aspx" target="_blank">Introducing Gulp, Grunt, Bower, and npm support for Visual Studio</a>: Scott Hanselman makes the case for using more than just NuGet and introduces the Visual Studio integration for these tools (we didn't discuss task runners in this episode).</li>
+	<li><a href="https://www.quora.com/Why-use-Bower-when-there-is-npm" target="_blank">Why use Bower when there is NPM?</a> - Mattias Petter Johansson makes the case that <a href="http://browserify.org/" target="_blank">Browserify</a> and NPM are the way to go (we didn't discuss browserify but we did discuss whether Bower is really necessary).
+<ul>
+	<li>Mattias also has a fun <a href="https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q" target="_blank">YouTube channel</a> discussing how to become a better programmer.</li>
+</ul>
+</li>
+	<li><a href="http://docs.nuget.org/consume/package-restore/migrating-to-automatic-package-restore" target="_blank">Migrating to Automatic Package Restore</a> - Stop using "Enable Package Restore" in your Visual Studio solutions.  The naming is subtle, but NuGet has a simpler package restore methodology, and you have to edit your project files to get rid of the "old" way.</li>
+</ul>]]></content:encoded>
+      <itunes:subtitle>NuGet burst onto the .NET developer scene in 2010 and took Visual Studio development by storm.  We .NET developers were able to easily add key Microsoft dependencies like Entity Framework, ASP.NET Web API, or client-side libraries like jQuery and bootstrap.</itunes:subtitle>
+      <itunes:summary><![CDATA[NuGet burst onto the .NET developer scene in 2010 and took Visual Studio development by storm.  We .NET developers were able to easily add key Microsoft dependencies like Entity Framework, ASP.NET Web API, or client-side libraries like jQuery and bootstrap.
+
+But now new package management is front and center in Visual Studio 2015.  And there's nothing stopping you from using them in your development toolbelt today.  Where does this leave NuGet?  And what will you need to get up to speed on now?
+
+Chris, Todd, and Jess talk about what NuGet meant to developers until now, and introduce NPM and Bower and their integration into the ASP.NET 5 beta templates.  By no means is it the whole list of package managers you can use, but they will be front and center for web developers who live in Visual Studio.
+
+Mentioned in the show:
+<ul>
+	<li><a href="https://www.youtube.com/watch?v=qRD7bkK7m10" target="_blank">Introduction to TypeScript</a>: Jess's free TypeScript training video</li>
+	<li><a href="http://bower.io/" target="_blank">Bower</a> - Home page for this web development package manager</li>
+	<li><a href="https://www.npmjs.com/" target="_blank">npm</a> - The nodejs package manager, which has also become a go to for more than just nodejs development.</li>
+	<li><a href="https://msdn.microsoft.com/en-us/magazine/mt573714.aspx" target="_blank">Visual Studio - Bower: Modern Tools for Web Development</a>: Adam Tuliper dives into Bower usage in Visual Studio web projects.</li>
+	<li><a href="http://docs.asp.net/en/latest/client-side/bower.html" target="_blank">Manage client-side packages with Bower</a> - Direct from the ASP.NET 5 documentation.</li>
+	<li><a href="http://www.hanselman.com/blog/IntroducingGulpGruntBowerAndNpmSupportForVisualStudio.aspx" target="_blank">Introducing Gulp, Grunt, Bower, and npm support for Visual Studio</a>: Scott Hanselman makes the case for using more than just NuGet and introduces the Visual Studio integration for these tools (we didn't discuss task runners in this episode).</li>
+	<li><a href="https://www.quora.com/Why-use-Bower-when-there-is-npm" target="_blank">Why use Bower when there is NPM?</a> - Mattias Petter Johansson makes the case that <a href="http://browserify.org/" target="_blank">Browserify</a> and NPM are the way to go (we didn't discuss browserify but we did discuss whether Bower is really necessary).
+<ul>
+	<li>Mattias also has a fun <a href="https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q" target="_blank">YouTube channel</a> discussing how to become a better programmer.</li>
+</ul>
+</li>
+	<li><a href="http://docs.nuget.org/consume/package-restore/migrating-to-automatic-package-restore" target="_blank">Migrating to Automatic Package Restore</a> - Stop using "Enable Package Restore" in your Visual Studio solutions.  The naming is subtle, but NuGet has a simpler package restore methodology, and you have to edit your project files to get rid of the "old" way.</li>
+</ul>]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:52:17</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/distributed-source-control-and-social-coding-with-git</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20151110Git/StaticVoidPodcast-20151110-Git.mp3" length="41457312" type="audio/mpeg" />
+      <title>Distributed Source Control and Social Coding with Git</title>
+      <link>https://www.staticvoidpodcast.com/distributed-source-control-and-social-coding-with-git</link>
+      <comments>https://www.staticvoidpodcast.com/distributed-source-control-and-social-coding-with-git#comments</comments>
+      <pubDate>Fri, 13 Nov 2015 07:59:11 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Chris, Todd, and Jess chat about distributed source control with Git - why Git was created, what problems it solves, and how you get can get up and running with it right away.]]></description>
+      <content:encoded><![CDATA[Chris, Todd, and Jess chat about distributed source control with Git - why Git was created, what problems it solves, and how you get can get up and running with it right away.]]></content:encoded>
+      <itunes:subtitle>Chris, Todd, and Jess chat about distributed source control with Git - why Git was created, what problems it solves, and how you get can get up and running with it right away.</itunes:subtitle>
+      <itunes:summary><![CDATA[Chris, Todd, and Jess chat about distributed source control with Git - why Git was created, what problems it solves, and how you get can get up and running with it right away.]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:08:47</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/null-the-billion-dollar-mistake</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20151021Nulls/StaticVoidPodcast-20151021-Nulls.mp3" length="0" type="audio/mpeg" />
+      <title>Null: The Billion Dollar Mistake</title>
+      <link>https://www.staticvoidpodcast.com/null-the-billion-dollar-mistake</link>
+      <comments>https://www.staticvoidpodcast.com/null-the-billion-dollar-mistake#comments</comments>
+      <pubDate>Thu, 22 Oct 2015 06:00:33 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[If you've done any .NET development at all, you've undoubtedly experience the dreaded NullReferenceException.  In Java, it's the NullPointException.  No matter what you call it, interacting with a null reference in any language can spell disaster for your application. Join Jess, Chris, and Todd as they chat about null values, some of the ways that they deal with them in their own applications, and how they've come to live relatively peacefully in a world full of nulls.]]></description>
+      <content:encoded><![CDATA[If you've done any .NET development at all, you've undoubtedly experience the dreaded NullReferenceException.  In Java, it's the NullPointException.  No matter what you call it, interacting with a null reference in any language can spell disaster for your application. Join Jess, Chris, and Todd as they chat about null values, some of the ways that they deal with them in their own applications, and how they've come to live relatively peacefully in a world full of nulls.
+
+If you enjoyed the episode you may also enjoy these related links:
+<ul>
+	<li><a href="https://roslyn.codeplex.com/discussions/540883"> C# Null Propagation Operator</a></li>
+	<li><a href="http://www.codeproject.com/Articles/109026/Chained-null-checks-and-the-Maybe-monad">Making null checks easy with the custom ".With()" extension method</a></li>
+	<li><a href="http://www.infoq.com/presentations/Contracts-Library">Greg Young talks about .NET's Code Contracts library</a></li>
+	<li><a href="http://fsharpforfunandprofit.com/posts/the-option-type">What the users of functional languages think about all this</a></li>
+</ul>
+]]></content:encoded>
+      <itunes:subtitle>If you've done any .NET development at all, you've undoubtedly experience the dreaded NullReferenceException.  In Java, it's the NullPointException.  No matter what you call it, interacting with a null reference in any language can spell disaster for your application. Join Jess, Chris, and Todd as they chat about null values, some of the ways that they deal with them in their own applications, and how they've come to live relatively peacefully in a world full of nulls.</itunes:subtitle>
+      <itunes:summary><![CDATA[If you've done any .NET development at all, you've undoubtedly experience the dreaded NullReferenceException.  In Java, it's the NullPointException.  No matter what you call it, interacting with a null reference in any language can spell disaster for your application. Join Jess, Chris, and Todd as they chat about null values, some of the ways that they deal with them in their own applications, and how they've come to live relatively peacefully in a world full of nulls.
+
+If you enjoyed the episode you may also enjoy these related links:
+<ul>
+	<li><a href="https://roslyn.codeplex.com/discussions/540883"> C# Null Propagation Operator</a></li>
+	<li><a href="http://www.codeproject.com/Articles/109026/Chained-null-checks-and-the-Maybe-monad">Making null checks easy with the custom ".With()" extension method</a></li>
+	<li><a href="http://www.infoq.com/presentations/Contracts-Library">Greg Young talks about .NET's Code Contracts library</a></li>
+	<li><a href="http://fsharpforfunandprofit.com/posts/the-option-type">What the users of functional languages think about all this</a></li>
+</ul>
+]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>00:54:34</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/developers-guide-to-consulting</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/SVP20151004Consulting/SVP-20151004-Consulting.mp3" length="86706199" type="audio/mpeg" />
+      <title>Developers Guide to Consulting</title>
+      <link>https://www.staticvoidpodcast.com/developers-guide-to-consulting</link>
+      <comments>https://www.staticvoidpodcast.com/developers-guide-to-consulting#comments</comments>
+      <pubDate>Wed, 14 Oct 2015 04:02:02 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[So you want to be a software development consultant?  Or, are you just trying to figure out what it means when people say "1099" and "Corp-to-Corp"?]]></description>
+      <content:encoded><![CDATA[So you want to be a software development consultant?  Or, are you just trying to figure out what it means when people say "1099" and "Corp-to-Corp"?
+
+Join Jess, Todd, and Chris as they talk about the various aspects of technology consulting and some of the things that you need to think about when considering a switch from employee to consultant.]]></content:encoded>
+      <itunes:subtitle>So you want to be a software development consultant?  Or, are you just trying to figure out what it means when people say "1099" and "Corp-to-Corp"?</itunes:subtitle>
+      <itunes:summary><![CDATA[So you want to be a software development consultant?  Or, are you just trying to figure out what it means when people say "1099" and "Corp-to-Corp"?
+
+Join Jess, Todd, and Chris as they talk about the various aspects of technology consulting and some of the things that you need to think about when considering a switch from employee to consultant.]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>1:12:15</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/spa-development-tools</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/SVP20150927SPATooling/SVP-20150927-SPA_Tooling.mp3" length="73435060" type="audio/mpeg" />
+      <title>SPA Development Tools</title>
+      <link>https://www.staticvoidpodcast.com/spa-development-tools</link>
+      <comments>https://www.staticvoidpodcast.com/spa-development-tools#comments</comments>
+      <pubDate>Tue, 29 Sep 2015 05:51:02 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[In this episode, Todd, Chris, and Jess discuss the various tools that they use for building Single-Page Applications, and client-side web applications in general.]]></description>
+      <content:encoded><![CDATA[In this episode, Todd, Chris, and Jess discuss the various tools that they use for building Single-Page Applications, and client-side web applications in general.
+
+Here are the links to the various tools mentioned in the show:
+<ul>
+<li><label>System Utilities</label><ul>
+	<li><a href="https://technet.microsoft.com/en-us/library/dn465153.aspx">Microsoft Monitoring Agent - server-side production profiling tool</a></li>
+	<li><a href="https://chocolatey.org/">Chocolatey - Automated installation manager</a></li>
+	<li><a href="http://sourceforge.net/projects/console/">Console2 - A better Windows console</a></li>
+</ul></li>
+<li><label>Project templates & Package Managers</label><ul>
+	<li><a href="http://www.johnpapa.net/hottowel/">Hot Towel - Powerful SPA project template</a></li>
+	<li><a href="http://yeoman.io/">Yeoman - Command line project automation tool</a></li>
+	<li><a href="https://www.nuget.org/">NuGet - Integrated Visual Studio package manager</a></li>
+	<li><a href="https://www.npmjs.com/">Node / NPM (Node Package Manager)</a></li>
+	<li><a href="https://www.bower.io/">Bower - client-side package manager</a></li>
+</ul></li>
+<li><label>JavaScript Test Runners</label><ul>
+	<li><a href="https://github.com/mmanela/chutzpah">Chutzpah - Integrated Visual Studio JavaScript unit test runner</a></li>
+	<li><a href="http://karma-runner.github.io/0.13/index.html">Karma - command line JavaScript unit test runner</a></li>
+	<li><a href="https://mochajs.org/">Mocha - command line JavaScript unit test runner</a></li>
+</ul></li>
+<li><label>Lightweight Code Editors</label><ul>
+	<li><a href="https://atom.io/">Atom - Powerful text editor for coding</a></li>
+	<li><a href="">Sublime Text - Powerful text editor for coding</a></li>
+	<li><a href="">Visual Studio Code - Powerful text editor for coding</a></li>
+	<li><a href="">Notepad++ - Powerful text editor for coding</a></li>
+</ul></li>
+</ul>
+]]></content:encoded>
+      <itunes:subtitle>In this episode, Todd, Chris, and Jess discuss the various tools that they use for building Single-Page Applications, and client-side web applications in general.</itunes:subtitle>
+      <itunes:summary><![CDATA[In this episode, Todd, Chris, and Jess discuss the various tools that they use for building Single-Page Applications, and client-side web applications in general.
+
+Here are the links to the various tools mentioned in the show:
+<ul>
+<li><label>System Utilities</label><ul>
+	<li><a href="https://technet.microsoft.com/en-us/library/dn465153.aspx">Microsoft Monitoring Agent - server-side production profiling tool</a></li>
+	<li><a href="https://chocolatey.org/">Chocolatey - Automated installation manager</a></li>
+	<li><a href="http://sourceforge.net/projects/console/">Console2 - A better Windows console</a></li>
+</ul></li>
+<li><label>Project templates & Package Managers</label><ul>
+	<li><a href="http://www.johnpapa.net/hottowel/">Hot Towel - Powerful SPA project template</a></li>
+	<li><a href="http://yeoman.io/">Yeoman - Command line project automation tool</a></li>
+	<li><a href="https://www.nuget.org/">NuGet - Integrated Visual Studio package manager</a></li>
+	<li><a href="https://www.npmjs.com/">Node / NPM (Node Package Manager)</a></li>
+	<li><a href="https://www.bower.io/">Bower - client-side package manager</a></li>
+</ul></li>
+<li><label>JavaScript Test Runners</label><ul>
+	<li><a href="https://github.com/mmanela/chutzpah">Chutzpah - Integrated Visual Studio JavaScript unit test runner</a></li>
+	<li><a href="http://karma-runner.github.io/0.13/index.html">Karma - command line JavaScript unit test runner</a></li>
+	<li><a href="https://mochajs.org/">Mocha - command line JavaScript unit test runner</a></li>
+</ul></li>
+<li><label>Lightweight Code Editors</label><ul>
+	<li><a href="https://atom.io/">Atom - Powerful text editor for coding</a></li>
+	<li><a href="">Sublime Text - Powerful text editor for coding</a></li>
+	<li><a href="">Visual Studio Code - Powerful text editor for coding</a></li>
+	<li><a href="">Notepad++ - Powerful text editor for coding</a></li>
+</ul></li>
+</ul>
+]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:16:30</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/spa-best-practices</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20150921SPABestPractices/20150922-spaBestPractices.mp3" length="60883398" type="audio/mpeg" />
+      <title>SPA Tips, Tricks, and Best Practices</title>
+      <link>https://www.staticvoidpodcast.com/spa-best-practices</link>
+      <comments>https://www.staticvoidpodcast.com/spa-best-practices#comments</comments>
+      <pubDate>Tue, 22 Sep 2015 06:35:45 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Todd, Chris, and Jess talk about their real-world experience and reveal their tips, tricks, and best practices for building rich client-side applications on the web.]]></description>
+      <content:encoded><![CDATA[Todd, Chris, and Jess talk about their real-world experience and reveal their tips, tricks, and best practices for building rich client-side applications on the web.]]></content:encoded>
+      <itunes:subtitle>Todd, Chris, and Jess talk about their real-world experience and reveal their tips, tricks, and best practices for building rich client-side applications on the web.</itunes:subtitle>
+      <itunes:summary><![CDATA[Todd, Chris, and Jess talk about their real-world experience and reveal their tips, tricks, and best practices for building rich client-side applications on the web.]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:03:25</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/the-wonderful-world-of-spa</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/StaticVoidPodcast20150915SPA/StaticVoidPodcast-20150915-SPA.mp3" length="64219120" type="audio/mpeg" />
+      <title>The Wonderful World of SPA</title>
+      <link>https://www.staticvoidpodcast.com/the-wonderful-world-of-spa</link>
+      <comments>https://www.staticvoidpodcast.com/the-wonderful-world-of-spa#comments</comments>
+      <pubDate>Tue, 15 Sep 2015 06:10:42 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Chris, Todd, and Jess chat about the various aspects of building immersive and interactive client-side experiences in the browser today.]]></description>
+      <content:encoded><![CDATA[Chris, Todd, and Jess chat about the various aspects of building immersive and interactive client-side experiences in the browser today.]]></content:encoded>
+      <itunes:subtitle>Chris, Todd, and Jess chat about the various aspects of building immersive and interactive client-side experiences in the browser today.</itunes:subtitle>
+      <itunes:summary><![CDATA[Chris, Todd, and Jess chat about the various aspects of building immersive and interactive client-side experiences in the browser today.]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:06:54</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/javascript-is-awesome</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/20150527_20150613/20150527.mp3" length="81103498" type="audio/mpeg" />
+      <title>JavaScript is Awesome... JavaScript is Evil</title>
+      <link>https://www.staticvoidpodcast.com/javascript-is-awesome</link>
+      <comments>https://www.staticvoidpodcast.com/javascript-is-awesome#comments</comments>
+      <pubDate>Tue, 08 Sep 2015 01:53:03 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Join Jess, Todd, and Chris as they talk about the world of JavaScript - how it's great and horrible all at the same time!]]></description>
+      <content:encoded><![CDATA[Join Jess, Todd, and Chris as they talk about the world of JavaScript - how it's great and horrible all at the same time!]]></content:encoded>
+      <itunes:subtitle>Join Jess, Todd, and Chris as they talk about the world of JavaScript - how it's great and horrible all at the same time!</itunes:subtitle>
+      <itunes:summary><![CDATA[Join Jess, Todd, and Chris as they talk about the world of JavaScript - how it's great and horrible all at the same time!]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:25:32</itunes:duration>
+    </item>
+    <item>
+      <guid isPermaLink="false">https://www.staticvoidpodcast.com/asp-net-5-is-coming</guid>
+      <enclosure url="http://media.blubrry.com/staticvoidpodcast/archive.org/download/20150527_20150613/20150527.ogg" length="47150463" type="audio/mpeg" />
+      <title>ASP.NET 5 is Coming!</title>
+      <link>https://www.staticvoidpodcast.com/asp-net-5-is-coming</link>
+      <comments>https://www.staticvoidpodcast.com/asp-net-5-is-coming#comments</comments>
+      <pubDate>Tue, 01 Sep 2015 01:50:24 +0000</pubDate>
+      <category><![CDATA[Podcast]]></category>
+      <category><![CDATA[Programming]]></category>
+      <category><![CDATA[Web Development]]></category>
+      <description><![CDATA[Join Jess and Todd as they talk about the latest release of the ASP.NET framework and what you need to know in order to be ready for it.]]></description>
+      <content:encoded><![CDATA[Join Jess and Todd as they talk about the latest release of the ASP.NET framework and what you need to know in order to be ready for it.]]></content:encoded>
+      <itunes:subtitle>Join Jess and Todd as they talk about the latest release of the ASP.NET framework and what you need to know in order to be ready for it.</itunes:subtitle>
+      <itunes:summary><![CDATA[Join Jess and Todd as they talk about the latest release of the ASP.NET framework and what you need to know in order to be ready for it.]]></itunes:summary>
+      <itunes:author>The Static Void Podcast</itunes:author>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:duration>01:05:29</itunes:duration>
+    </item>
+  </channel>
+</rss>
