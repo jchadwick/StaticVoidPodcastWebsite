@@ -1,4 +1,5 @@
---- layout: default ---
+--- 
+---
 
 <h1 class="hide">Home</h1>
 
@@ -8,7 +9,7 @@
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
   <div class="row">
-    <span class="col-md-1 publish-date">{{ site.date | date_to_string: "ordinal", "US" }}</span>
+    <span class="col-md-1 publish-date">{{ post.date }}</span>
     <div class="col-md-11">
       <h2 class="title">
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -37,4 +38,50 @@
     {% endif %}
   </div>
 
+</section>
+
+<hr/>
+<section title="Your Hosts" class="hosts">
+  <h2 class="cover-heading">Your Hosts</h2>
+  <div class="row host">
+    <div class="col-md-3 name">
+      <p class="jess"></p>
+      <h3>Jess Chadwick</h3>
+    </div>
+    <div class="col-md-9 bio">
+      Jess Chadwick is a software developer and technologist with over fifteen years of development experience ranging from embedded
+      devices in start-ups to enterprise-scale solutions in Fortune 25s. He is an ASPInsider and a magazine and book author
+      with O’Reilly publishing, as well as several courses on Lynda.com including Up and Running with ASP.NET 5. Jess is
+      actively involved in the development community, regularly speaking at user groups and conferences as well as co-lead
+      of the NJDOTNET Central New Jersey .NET user group.
+    </div>
+  </div>
+  <hr/>
+  <div class="row host">
+    <div class="col-md-3 name">
+      <p class="todd"></p>
+      <h3>Todd Snyder</h3>
+    </div>
+    <div class="col-md-9 bio">
+      Todd has been a software developer/architect for over 20 years. During that time, he has spent several years as a consultant
+      providing technical guidance and leadership for the development of enterprise class systems on the Microsoft and Web
+      Platforms. At Infragistics, he is a principal consultant that focuses on the design and construction of Rich Internet
+      Application (RIA), mobile and n-tier based systems. Todd is the co-leader for the New Jersey .NET User Group, NJDOTNET,
+      and is a frequent speaker and book author.
+    </div>
+  </div>
+  <hr/>
+  <div class="row host">
+    <div class="col-md-3 name">
+      <p class="chris"></p>
+      <h3>Chris Gomez</h3>
+    </div>
+    <div class="col-md-9 bio">
+      Chris has been writing Windows software professionally for over twenty years. His day jobs have included developing kiosks
+      for theme parks and retail stores and building portfolio analytics for commercial lending. Today Chris is building
+      distributed systems with .NET and other platforms and is a Microsoft MVP in ASP.NET / IIS. His hobby for game development
+      turned into a game development user group called Philly GameWorks, founded in 2014.
+    </div>
+  </div>
+  <hr/>
 </section>
