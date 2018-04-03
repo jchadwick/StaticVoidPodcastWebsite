@@ -1,21 +1,22 @@
 --- 
+layout: default
 ---
 
-<h1 class="hide">Home</h1>
+<h1 hidden>Home</h1>
 
-<section alt="Recent Episodes" class="episode-list">
+<section alt="Recent Episodes" id="episode-list">
   <h2 class="cover-heading">Recent Episodes</h2>
 
   <!-- This loops through the paginated posts -->
   {% for post in paginator.posts %}
-  <div class="row">
-    <span class="col-md-1 publish-date">{{ post.date }}</span>
+  <div class="row episode">
+    <span class="col-md-1 publish-date">{{ post.date | date: '%b %d %Y' }}</span>
     <div class="col-md-11">
       <h2 class="title">
         <a href="{{ post.url }}">{{ post.title }}</a>
       </h2>
       <div>
-        {{ post.excerpt }}
+        {{ post.excerpt | strip_html }}
       </div>
     </div>
   </div>
@@ -27,13 +28,12 @@
   <div class="pagination">
     {% if paginator.previous_page %}
     <span class="pull-left">
-      <a class="btn btn-primary" href="{{ paginator.previous_page_path }}">&lt;&lt; Prev</a>
+      <a class="btn btn-primary" rel="nofollow" href="{{ paginator.previous_page_path }}">&lt;&lt; Prev</a>
     </span>
     {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
     <span class="pull-right">
-      <a class="btn btn-primary" href="{{ paginator.next_page_path }}">Next &gt;&gt;</a>
+      <a class="btn btn-primary" rel="nofollow" href="{{ paginator.next_page_path }}">Next &gt;&gt;</a>
     </span>
     {% endif %}
   </div>
@@ -41,11 +41,11 @@
 </section>
 
 <hr/>
-<section title="Your Hosts" class="hosts">
+<section title="Your Hosts" id="hosts">
   <h2 class="cover-heading">Your Hosts</h2>
   <div class="row host">
     <div class="col-md-3 name">
-      <p class="jess"></p>
+      <p class="img jess"></p>
       <h3>Jess Chadwick</h3>
     </div>
     <div class="col-md-9 bio">
@@ -59,7 +59,7 @@
   <hr/>
   <div class="row host">
     <div class="col-md-3 name">
-      <p class="todd"></p>
+      <p class="img todd"></p>
       <h3>Todd Snyder</h3>
     </div>
     <div class="col-md-9 bio">
@@ -73,7 +73,7 @@
   <hr/>
   <div class="row host">
     <div class="col-md-3 name">
-      <p class="chris"></p>
+      <p class="img chris"></p>
       <h3>Chris Gomez</h3>
     </div>
     <div class="col-md-9 bio">
