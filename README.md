@@ -23,7 +23,5 @@ Here's how we publish a show:
   podcast_length: "27585708"
   ---
   ```
-4. **Regenerate the RSS feed xml file**
-  Run the [feed-to-yaml](https://github.com/jchadwick/staticvoidpodcast/tree/feed-to-yaml) tool in this repository to generate the updated `feed.xml` file
-5. Commit & push
-6. **Profit!**  I guess.  Somehow.  I dunno - I never got this one right.
+4. Commit & push
+5. **Profit!**  I guess.  Somehow.  I dunno - I never got this one right.
